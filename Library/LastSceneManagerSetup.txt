@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Secrtion 2 = Obsctacle Course/Scene/Obstacle Course.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
