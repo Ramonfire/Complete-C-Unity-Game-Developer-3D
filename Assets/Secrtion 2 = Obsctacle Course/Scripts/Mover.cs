@@ -7,7 +7,7 @@ public class Mover : MonoBehaviour
     [SerializeField]
     private float xSpeed = 7f;
     [SerializeField]
-    private float gravity = -9.81f;
+    public float gravity = -9.81f;
     [SerializeField]
     private float zSpeed = 7f;
 

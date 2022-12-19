@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Spinner : MonoBehaviour
 {
-    [SerializeField]
-    private Vector3 rotation;
+    public static readonly Vector3 rotation=new Vector3(0,1,0);
     // Start is called before the first frame update
     void Start()
     {

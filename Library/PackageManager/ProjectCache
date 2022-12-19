@@ -6,8 +6,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638065887420663996
-    m_Hash: 2532509200
+      ticks: 638066065700569554
+    m_Hash: 72119266
   m_LockFileStatus:
     m_FilePath: C:/Users/pc gamer casa/Desktop/unity projects/Complete C# Unity Game
       Developer 3D/Packages/packages-lock.json
@@ -15,8 +15,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638065887420744031
-    m_Hash: 3762927657
+      ticks: 638066065700574684
+    m_Hash: 568177452
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
