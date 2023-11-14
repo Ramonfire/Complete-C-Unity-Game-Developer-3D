@@ -56,11 +56,13 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Secrtion 2 = Obsctacle Course\Scripts\EnableGravity.cs" />
-    <Compile Include="Assets\Secrtion 2 = Obsctacle Course\Scripts\Spinner.cs" />
-    <Compile Include="Assets\Secrtion 2 = Obsctacle Course\Scripts\ObjectHit.cs" />
-    <Compile Include="Assets\Secrtion 2 = Obsctacle Course\Scripts\Mover.cs" />
-    <Compile Include="Assets\Secrtion 2 = Obsctacle Course\Scripts\Scorer.cs" />
+    <Compile Include="Assets\Section 3 = Rocket Boost\Scripts\EnableGravity.cs" />
+    <Compile Include="Assets\Section 3 = Rocket Boost\Scripts\LoadScene.cs" />
+    <Compile Include="Assets\Section 3 = Rocket Boost\Scripts\Mover.cs" />
+    <Compile Include="Assets\Section 3 = Rocket Boost\Scripts\ObjectHit.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Section 3 = Rocket Boost\Scripts\Scripts.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -665,6 +667,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Scripts.Player.csproj">
+      <Project>{A6C40B78-BCFC-2464-0F49-07D9837D491E}</Project>
+      <Name>Scripts.Player</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
