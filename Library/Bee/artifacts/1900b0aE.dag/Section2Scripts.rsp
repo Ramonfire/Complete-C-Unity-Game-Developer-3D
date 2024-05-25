@@ -339,6 +339,7 @@
 "Assets/Scripts/LoadScene.cs"
 "Assets/Scripts/Mover.cs"
 "Assets/Scripts/ObjectHit.cs"
+"Assets/Scripts/RocketMovement.cs"
 "Assets/Scripts/Scorer.cs"
 "Assets/Scripts/Spinner.cs"
 -langversion:9.0

@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnableGravity : MonoBehaviour
 {
     // Start is called before the first frame update
-    private  Rigidbody rigidbody;
+    private Rigidbody rigidbody;
     private float creationTime;
     [SerializeField] 
     private float  timeToWait;
