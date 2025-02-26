@@ -43,7 +43,9 @@ public class RocketMovement : MonoBehaviour
 
     private void RotateObject(Int32 _rotationFactor)
     {
-        transform.Rotate(Vector3.back * _rotationFactor * Time.deltaTime);
+        _rigidbody.freezeRotation = true;// freeze rotation to avoid glitching due to the physics system and us trying to manually rotate the object
+         transform.Rotate(Vector3.back * _rotationFactor * Time.deltaTime);
+        _rigidbody.freezeRotation = false;//unfreeze the rotation
     }
 
     private void SpaceKeyDown()
