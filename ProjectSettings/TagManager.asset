@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Obstacle
+  - Friendly
+  - Fuel
+  - Menu
   layers:
   - Default
   - TransparentFX

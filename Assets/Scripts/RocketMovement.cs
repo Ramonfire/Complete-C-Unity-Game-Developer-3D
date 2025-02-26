@@ -8,12 +8,15 @@ public class RocketMovement : MonoBehaviour
     [SerializeField] private Rigidbody _rigidbody;
     [SerializeField] private Int32 _thrustFactor ;
     [SerializeField] private Int32 _rotationFactor ;
+    [SerializeField] private AudioSource _audioSource;
+    [SerializeField] private AudioClip EngineSound;
     // Start is called before the first frame update
     void Start()
     {
         _thrustFactor = 300;
         _rotationFactor = 100;
         _rigidbody = GetComponent<Rigidbody>();
+        _audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -53,7 +56,14 @@ public class RocketMovement : MonoBehaviour
            
         if (Input.GetKey(KeyCode.Space))
         {
-            _rigidbody.AddRelativeForce(Vector3.up* _thrustFactor* Time.deltaTime); 
+            _rigidbody.AddRelativeForce(Vector3.up* _thrustFactor* Time.deltaTime);
+            if(!_audioSource.isPlaying)
+                 _audioSource.PlayOneShot(EngineSound);
+        }
+        else
+        {
+            if (_audioSource.isPlaying)
+                _audioSource.Stop();
         }
     }
 }

@@ -22,7 +22,7 @@ public class LoadScene : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.transform.CompareTag("Player")) {
-            SceneManager.LoadScene(sceneNumber);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
         }
     }
 }

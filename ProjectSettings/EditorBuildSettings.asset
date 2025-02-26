@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Secrtion 2 = Obsctacle Course/Scene/Obstacle Course.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Section 3 = Rocket Boost/Scene/Cave Astraunots.unity
+    path: Assets/Section 3 = Rocket Boost/Scene/FlyOver.unity
     guid: 061c7addfed5dc34a960d40a1afb4f3c
+  - enabled: 1
+    path: Assets/Section 3 = Rocket Boost/Scene/FlyUnder.unity
+    guid: be2b52d045cd6a041895c23d24031474
+  - enabled: 1
+    path: Assets/Section 3 = Rocket Boost/Scene/FlyBetween.unity
+    guid: 1be430bfcfbd13b49a0bf43a6fc009b4
   m_configObjects: {}
