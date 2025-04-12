@@ -10,14 +10,22 @@ public class RocketCollision : MonoBehaviour
     private RocketMovement _playerMovement;
     [SerializeField] private AudioClip ExplosionSound;
     [SerializeField] private float _delay = 1;
+    [SerializeField] private ParticleSystem _CrashEffect;
+    [SerializeField] private ParticleSystem _SuccessEffect;
     bool isAlive;
+    bool isTransitioning;
     private void Start()
     {
         _playerMovement = GetComponent<RocketMovement>();
+        _CrashEffect.Stop();
+        _SuccessEffect.Stop();
         isAlive = true;
+        isTransitioning = false;
     }
     private void OnCollisionEnter(Collision collision)
     {
+        if (isTransitioning)// dont proccess collisions if we are transitioning to an other scene
+            return;
         switch (collision.transform.tag)
         {
             case "Friendly":
@@ -30,6 +38,7 @@ public class RocketCollision : MonoBehaviour
                 LoadNextScene();
                 break;
             case "Obstacle":
+                isAlive = false;
                 StartCrashSequence();
                 break;
 
@@ -51,19 +60,27 @@ public class RocketCollision : MonoBehaviour
 
     private void LoadNextScene()
     {
-
+        isTransitioning = true;
+        GetComponent<AudioSource>().Stop();
+        _CrashEffect.Stop();
+        _SuccessEffect.Play();
         IEnumerator coroutine = WaitThenLoadNextScene();
         _playerMovement.enabled = false;
         StartCoroutine(coroutine);
+        isTransitioning = false;
     }
 
     private void StartCrashSequence() 
     {
-          IEnumerator coroutine = ReloadScene();
+        isTransitioning = true;
+        GetComponent<AudioSource>().Stop();
+        IEnumerator coroutine = ReloadScene();
         _playerMovement.enabled = false;
+        _SuccessEffect.Stop();
+        _CrashEffect.Play();
         GetComponent<AudioSource>().PlayOneShot(ExplosionSound);
         StartCoroutine(coroutine);
-        
+
     }
 
     private IEnumerator WaitThenLoadNextScene() 
@@ -75,5 +92,6 @@ public class RocketCollision : MonoBehaviour
     {
         yield return new WaitForSeconds(_delay);
        LoadScene(SceneManager.GetActiveScene().buildIndex);
+        isTransitioning = false;
     }
 }
