@@ -42,31 +42,44 @@ public class RocketMovement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
-            if (!_RightBooster.isPlaying)
-            {
-                _LeftBooster.Stop();
-                _RightBooster.Play();
-            }
-            RotateObject(_rotationFactor);
+            StartRightBooster();//turn on the  side booster
+            RotateObject(_rotationFactor);//rotate the object
         }
         else if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
-            if (!_LeftBooster.isPlaying)
-            {
-                _RightBooster.Stop();
-                _LeftBooster.Play();
-            }
-                
-            RotateObject(-_rotationFactor);
+            StartLeftBooster();//turn on the  side booster
+            RotateObject(-_rotationFactor);//rotate the object
         }
         else
         {
-            if (!_BoosterEffect.isPlaying) //stop the side booster when we arent steering or Climbing
-            {
-                _RightBooster.Stop();
-                _LeftBooster.Stop();
-            }
-           
+            TurnOffSideBoosters();
+        }
+    }
+
+    private void StartLeftBooster()
+    {
+        if (!_LeftBooster.isPlaying)
+        {
+            _RightBooster.Stop();
+            _LeftBooster.Play();
+        }
+    }
+
+    private void StartRightBooster()
+    {
+        if (!_RightBooster.isPlaying)
+        {
+            _LeftBooster.Stop();
+            _RightBooster.Play();
+        }
+    }
+
+    private void TurnOffSideBoosters()
+    {
+        if (!_BoosterEffect.isPlaying) //stop the side booster when we arent steering or Climbing
+        {
+            _RightBooster.Stop();
+            _LeftBooster.Stop();
         }
     }
 
@@ -86,22 +99,32 @@ public class RocketMovement : MonoBehaviour
             if (!_audioSource.isPlaying)
                 _audioSource.PlayOneShot(EngineSound);
 
-            if (!_BoosterEffect.isPlaying)
-                _BoosterEffect.Play();
-
-            if (!_LeftBooster.isPlaying && !(Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D)))
-                _LeftBooster.Play();
-
-            if (!_RightBooster.isPlaying && !(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A)))
-                _RightBooster.Play();
+            StartBooster();
         }
         else
         {
             if (_audioSource.isPlaying)
                 _audioSource.Stop();
 
-            if (_BoosterEffect.isPlaying)
-                _BoosterEffect.Stop();
+            TurnOffMainBooster();
         }
+    }
+
+    private void TurnOffMainBooster()
+    {
+        if (_BoosterEffect.isPlaying)
+            _BoosterEffect.Stop();
+    }
+
+    private void StartBooster()
+    {
+        if (!_BoosterEffect.isPlaying)
+            _BoosterEffect.Play();
+
+        if (!_LeftBooster.isPlaying && !(Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D)))
+            _LeftBooster.Play();
+
+        if (!_RightBooster.isPlaying && !(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A)))
+            _RightBooster.Play();
     }
 }

@@ -12,19 +12,43 @@ public class RocketCollision : MonoBehaviour
     [SerializeField] private float _delay = 1;
     [SerializeField] private ParticleSystem _CrashEffect;
     [SerializeField] private ParticleSystem _SuccessEffect;
-    bool isAlive;
-    bool isTransitioning;
+    private bool isTransitioning;
+    [SerializeField] private bool isCollisionDisabeled;
     private void Start()
     {
         _playerMovement = GetComponent<RocketMovement>();
         _CrashEffect.Stop();
         _SuccessEffect.Stop();
-        isAlive = true;
         isTransitioning = false;
+        isCollisionDisabeled = false;
     }
+
+
+    private void Update()
+    {
+        ProcessDebugKeys();
+    }
+
+    private void ProcessDebugKeys()
+    {
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            LoadNextScene();
+        }
+        else if (Input.GetKeyDown(KeyCode.C))
+        {
+            isCollisionDisabeled = !isCollisionDisabeled;//disbale or enable the collision
+            Debug.Log("Collision is" + (isCollisionDisabeled ? "Disbaled" : "enabled"));
+        }
+        else if (Input.GetKeyDown(KeyCode.R))
+        {
+            StartCrashSequence();
+        }
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
-        if (isTransitioning)// dont proccess collisions if we are transitioning to an other scene
+        if (isTransitioning || isCollisionDisabeled)// dont proccess collisions if we are transitioning to an other scene
             return;
         switch (collision.transform.tag)
         {
@@ -38,7 +62,6 @@ public class RocketCollision : MonoBehaviour
                 LoadNextScene();
                 break;
             case "Obstacle":
-                isAlive = false;
                 StartCrashSequence();
                 break;
 
@@ -57,25 +80,26 @@ public class RocketCollision : MonoBehaviour
             SceneManager.LoadScene(0);
     }
 
-
-    private void LoadNextScene()
+    private void PrepareBeforeLoad()
     {
         isTransitioning = true;
         GetComponent<AudioSource>().Stop();
+        _playerMovement.enabled = false;
+    }
+
+    private void LoadNextScene()
+    {
+        PrepareBeforeLoad();
         _CrashEffect.Stop();
         _SuccessEffect.Play();
         IEnumerator coroutine = WaitThenLoadNextScene();
-        _playerMovement.enabled = false;
         StartCoroutine(coroutine);
-        isTransitioning = false;
     }
 
     private void StartCrashSequence() 
     {
-        isTransitioning = true;
-        GetComponent<AudioSource>().Stop();
+        PrepareBeforeLoad();
         IEnumerator coroutine = ReloadScene();
-        _playerMovement.enabled = false;
         _SuccessEffect.Stop();
         _CrashEffect.Play();
         GetComponent<AudioSource>().PlayOneShot(ExplosionSound);
@@ -87,6 +111,7 @@ public class RocketCollision : MonoBehaviour
     {
         yield return new WaitForSeconds(_delay);
         LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+        isTransitioning = false;
     }
     private IEnumerator ReloadScene()
     {
