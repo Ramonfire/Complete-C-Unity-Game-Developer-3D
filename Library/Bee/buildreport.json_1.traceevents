@@ -1,0 +1,797 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1744735837836352, "dur": 3474632, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735837837312, "dur": 22522, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735837859976, "dur": 30184, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735837890172, "dur": 195410, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735838085586, "dur": 3215239, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735841300842, "dur": 10141, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735849203736, "dur": 1035175, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735849203891, "dur": 14778, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735849218672, "dur": 31672, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735849250347, "dur": 531114, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735849781465, "dur": 444326, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735850225794, "dur": 13115, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735953199859, "dur": 108175, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735953199879, "dur": 20588, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735953220469, "dur": 77670, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735953298142, "dur": 9891, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735956056179, "dur": 436073, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735956056214, "dur": 13606, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735956069822, "dur": 31868, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735956101691, "dur": 144602, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735956246296, "dur": 231553, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735956477852, "dur": 14399, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735965393140, "dur": 106266, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735965393161, "dur": 22269, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735965415433, "dur": 74088, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735965489524, "dur": 9881, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735968285706, "dur": 229593, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735968285717, "dur": 8520, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735968294243, "dur": 206545, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735968500791, "dur": 14506, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735968515772, "dur": 75, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1744735968317157, "dur":816, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968317980, "dur":124, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1744735968318141, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1744735968318159, "dur":470, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1744735968318644, "dur":438, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968319082, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486399, "dur":163, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486563, "dur":33, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486596, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486598, "dur":42, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486640, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486641, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486653, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486654, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486663, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486664, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486672, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486673, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486682, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486683, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486692, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486693, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486701, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486702, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486711, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486712, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486721, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486722, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486731, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486732, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486741, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486742, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486752, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486753, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486762, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486763, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486773, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486774, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486785, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486793, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968486810, "dur":1056, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1744735968318530, "dur":565, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1744735968319095, "dur":3543, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1744735968322645, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1744735968322779, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1744735968322819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1744735968328775, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1744735968329819, "dur":643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science.exe" }}
+,{ "pid":12345, "tid":1, "ts":1744735968330462, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1744735968330497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1744735968330500, "dur":1058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science.exe" }}
+,{ "pid":12345, "tid":1, "ts":1744735968331586, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744735968331617, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1744735968331660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1744735968331802, "dur":2099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744735968333929, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744735968333964, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1744735968334020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1744735968334026, "dur":1659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744735968335719, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744735968335765, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1744735968335921, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1744735968335925, "dur":2497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744735968338455, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744735968338487, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1744735968338530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1744735968338534, "dur":2284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744735968340856, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744735968340917, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1744735968340960, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1744735968340964, "dur":3312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744735968344331, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744735968344379, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1744735968344444, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1744735968344448, "dur":3914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744735968348389, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744735968348419, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1744735968348499, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1744735968348503, "dur":3981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744735968352512, "dur":52990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744735968405503, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1744735968405551, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1744735968405555, "dur":708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744735968406291, "dur":80130, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968318527, "dur":564, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968319095, "dur":3536, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968322645, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1744735968322646, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968322726, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1744735968322727, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968322757, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968323286, "dur":1475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1744735968324762, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1744735968324818, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968324840, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968325115, "dur":781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1744735968325931, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968326006, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968326032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968326205, "dur":1079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968327305, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968327352, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968327366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968327368, "dur":9588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968336994, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968337030, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968337055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968337059, "dur":1920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968339016, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968339080, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968339129, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968339142, "dur":2169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968341342, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968341378, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968341407, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968341410, "dur":3575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968345020, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968345055, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968345127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968345131, "dur":2901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968348067, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968348101, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968348141, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968348145, "dur":5308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968353483, "dur":892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968354375, "dur":201, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968354580, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968354625, "dur":7783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968362434, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968362462, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968362541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968362545, "dur":4417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968366989, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968367020, "dur":1054, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968368078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968368082, "dur":2805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968370913, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968370941, "dur":304, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968371249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968371253, "dur":4361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968375641, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968375671, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968375799, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968375803, "dur":3237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968379068, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968379100, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968379142, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968379145, "dur":3812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968382987, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968383086, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968383236, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968383240, "dur":4553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744735968387819, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":2, "ts":1744735968387851, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968387854, "dur":1482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":2, "ts":1744735968389364, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1744735968389395, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968389398, "dur":2126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1744735968391554, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1744735968391588, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968391591, "dur":3786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1744735968395405, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level7.resS" }}
+,{ "pid":12345, "tid":2, "ts":1744735968395436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968395439, "dur":2957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level7.resS" }}
+,{ "pid":12345, "tid":2, "ts":1744735968398418, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level3.resS" }}
+,{ "pid":12345, "tid":2, "ts":1744735968398446, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968398449, "dur":2574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level3.resS" }}
+,{ "pid":12345, "tid":2, "ts":1744735968401058, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1744735968401148, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744735968401151, "dur":2555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1744735968403733, "dur":82680, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1744735968318566, "dur":545, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1744735968319111, "dur":3646, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1744735968322758, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1744735968322884, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1744735968322950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1744735968349884, "dur":1073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1744735968350985, "dur":1551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1744735968352536, "dur":707, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1744735968353247, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1744735968353251, "dur":4573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1744735968357856, "dur":31817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1744735968389673, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1744735968389721, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1744735968389725, "dur":1669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1744735968391420, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1744735968391450, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1744735968391453, "dur":4823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1744735968396384, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level7" }}
+,{ "pid":12345, "tid":3, "ts":1744735968396557, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1744735968396561, "dur":2002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level7" }}
+,{ "pid":12345, "tid":3, "ts":1744735968398605, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1744735968398642, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1744735968398645, "dur":2541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1744735968401216, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1744735968401245, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1744735968401248, "dur":2190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1744735968403469, "dur":82941, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1744735968318753, "dur":401, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1744735968319154, "dur":3543, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1744735968322706, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1744735968322903, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1744735968322975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1744735968350529, "dur":4506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1744735968355072, "dur":36945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1744735968392017, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1744735968392055, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1744735968392059, "dur":1283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1744735968393372, "dur":620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1744735968393992, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1744735968394055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1744735968394058, "dur":3737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1744735968397839, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level4.resS" }}
+,{ "pid":12345, "tid":4, "ts":1744735968397877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1744735968397881, "dur":2567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level4.resS" }}
+,{ "pid":12345, "tid":4, "ts":1744735968400497, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1744735968400568, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1744735968400571, "dur":2664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1744735968403273, "dur":83135, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1744735968318629, "dur":489, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1744735968319118, "dur":3518, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1744735968322645, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1744735968322770, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1744735968322814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1744735968328801, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1744735968329868, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1744735968329937, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1744735968329964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1744735968330163, "dur":11605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1744735968341797, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1744735968341837, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1744735968341910, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1744735968341913, "dur":3466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1744735968345412, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1744735968345442, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1744735968345485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1744735968345489, "dur":3658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1744735968349230, "dur":44537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1744735968393767, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1744735968393894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1744735968393898, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1744735968394715, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level8.resS" }}
+,{ "pid":12345, "tid":5, "ts":1744735968394749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1744735968394753, "dur":2664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level8.resS" }}
+,{ "pid":12345, "tid":5, "ts":1744735968397450, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level5.resS" }}
+,{ "pid":12345, "tid":5, "ts":1744735968397484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1744735968397488, "dur":2297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level5.resS" }}
+,{ "pid":12345, "tid":5, "ts":1744735968399818, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1744735968399900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1744735968399904, "dur":2747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1744735968402683, "dur":83717, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968318660, "dur":466, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968319126, "dur":3509, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968322645, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1744735968322760, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968322793, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968327993, "dur":858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1744735968328884, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1744735968328950, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968328976, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968328978, "dur":1544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1744735968330559, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968330598, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968330685, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968331161, "dur":1838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968333046, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968333100, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968333142, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968333146, "dur":1104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968334284, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968334320, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968334373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968334377, "dur":1872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968336297, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968336336, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968336401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968336405, "dur":1830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968338253, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968338275, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968338318, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968338322, "dur":2512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968340859, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968340895, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968340936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968340940, "dur":2847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968343813, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968343844, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968343892, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968343895, "dur":3498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968347444, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968347561, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968347672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968347676, "dur":2849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968350554, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968350588, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968350694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968350698, "dur":5971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968356697, "dur":1124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968357822, "dur":1616, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968359442, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968359446, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968360799, "dur":661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968361461, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968361493, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968361497, "dur":2139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968363665, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968363696, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968363777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968363782, "dur":4348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968368160, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968368190, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968368259, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968368262, "dur":2249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968370560, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968370593, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968370647, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968370650, "dur":2680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968373375, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968373403, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968373518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968373537, "dur":5531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968379095, "dur":32810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Section2Scripts.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968411905, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968411935, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744735968411938, "dur":562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Section2Scripts.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744735968412519, "dur":73900, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1744735968318683, "dur":451, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1744735968319135, "dur":3610, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1744735968322752, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1744735968322866, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1744735968322941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1744735968349415, "dur":1367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1744735968350819, "dur":134858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1744735968485677, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1744735968485708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1744735968485711, "dur":629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1744735968486362, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1744735968486362, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1744735968318712, "dur":430, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1744735968319142, "dur":3581, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1744735968322729, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1744735968322846, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1744735968322888, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1744735968339107, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1744735968340435, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1744735968340473, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1744735968340605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1744735968340610, "dur":3027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1744735968343823, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1744735968343892, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1744735968343962, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1744735968343966, "dur":3832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1744735968347828, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1744735968347859, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1744735968347928, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1744735968347932, "dur":3447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1744735968351440, "dur":28996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1744735968380437, "dur":352, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1744735968380793, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1744735968380798, "dur":3137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1744735968383967, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1744735968383997, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1744735968384068, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1744735968384071, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1744735968385033, "dur":99057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1744735968484090, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1744735968484128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1744735968484132, "dur":673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1744735968484826, "dur":1579, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1744735968318732, "dur":416, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1744735968319148, "dur":3586, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1744735968322740, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1744735968322851, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1744735968322895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1744735968339478, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1744735968340656, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1744735968340686, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1744735968340767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1744735968340771, "dur":3207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1744735968344025, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1744735968344066, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1744735968344102, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1744735968344106, "dur":3744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1744735968347878, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1744735968347944, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1744735968348108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1744735968348112, "dur":3185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1744735968351331, "dur":45603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1744735968396934, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1744735968396966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1744735968396970, "dur":857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1744735968397858, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level4" }}
+,{ "pid":12345, "tid":9, "ts":1744735968397890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1744735968397894, "dur":2573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level4" }}
+,{ "pid":12345, "tid":9, "ts":1744735968400498, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1744735968400534, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1744735968400537, "dur":2278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1744735968402857, "dur":83539, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968318559, "dur":543, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968319102, "dur":3537, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968322645, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1744735968322796, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968322839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968329348, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1744735968330540, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1744735968330582, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968330735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968331188, "dur":1876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1744735968333093, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1744735968333129, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968333252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968333256, "dur":1288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1744735968334584, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1744735968334624, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968334665, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968334669, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1744735968336493, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1744735968336534, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968336637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968336640, "dur":1975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1744735968338649, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1744735968338688, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968338759, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968338763, "dur":2278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1744735968341067, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1744735968341096, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968341151, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968341169, "dur":3408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1744735968344616, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1744735968344652, "dur":221, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968344877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968344881, "dur":2572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1744735968347508, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1744735968347725, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968347930, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968347934, "dur":3542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1744735968351502, "dur":34907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1744735968386409, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968386503, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968386508, "dur":805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1744735968387340, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":10, "ts":1744735968387369, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968387372, "dur":1634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":10, "ts":1744735968389037, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":10, "ts":1744735968389068, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968389071, "dur":1313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":10, "ts":1744735968390413, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":10, "ts":1744735968390444, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968390447, "dur":2765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":10, "ts":1744735968393241, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1744735968393334, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968393386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968393390, "dur":939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1744735968394356, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level9" }}
+,{ "pid":12345, "tid":10, "ts":1744735968394391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968394395, "dur":2843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level9" }}
+,{ "pid":12345, "tid":10, "ts":1744735968397281, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level6" }}
+,{ "pid":12345, "tid":10, "ts":1744735968397327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968397330, "dur":2496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level6" }}
+,{ "pid":12345, "tid":10, "ts":1744735968399873, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level10.resS" }}
+,{ "pid":12345, "tid":10, "ts":1744735968399945, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968399949, "dur":2299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level10.resS" }}
+,{ "pid":12345, "tid":10, "ts":1744735968402278, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1744735968402379, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968402452, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744735968402455, "dur":1798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1744735968404273, "dur":82153, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744735968318774, "dur":387, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744735968319161, "dur":3523, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744735968322693, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1744735968322795, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744735968322821, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744735968329005, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1744735968330116, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1744735968330185, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744735968330241, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744735968330774, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1744735968331755, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1744735968331797, "dur":579, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744735968332380, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744735968332391, "dur":1472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1744735968333896, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1744735968333928, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744735968333977, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744735968333981, "dur":1567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1744735968335582, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1744735968335623, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744735968335666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744735968335670, "dur":1908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1744735968337617, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1744735968337664, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744735968337725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744735968337729, "dur":2481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1744735968340242, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1744735968340286, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744735968340435, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744735968340439, "dur":2342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1744735968342814, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1744735968342849, "dur":379, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744735968343232, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744735968343235, "dur":2543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1744735968345816, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1744735968345852, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744735968345921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744735968345926, "dur":3652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1744735968349607, "dur":75047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1744735968424655, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744735968424686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744735968424689, "dur":593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1744735968425300, "dur":61125, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1744735968318796, "dur":372, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1744735968319168, "dur":3543, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1744735968322721, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1744735968322838, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1744735968322867, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1744735968334693, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1744735968335671, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744735968335714, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1744735968335773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1744735968335777, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744735968337630, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744735968337698, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1744735968337745, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1744735968337749, "dur":2825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744735968340605, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744735968340639, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1744735968340719, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1744735968340722, "dur":2942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744735968343697, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744735968343730, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1744735968343816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1744735968343821, "dur":3323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744735968347170, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744735968347259, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1744735968347383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1744735968347387, "dur":3307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744735968350808, "dur":67000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744735968417808, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1744735968417846, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1744735968417852, "dur":719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744735968418589, "dur":67835, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1744735968318834, "dur":341, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1744735968319175, "dur":3498, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1744735968322681, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1744735968322816, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1744735968322848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1744735968329783, "dur":824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1744735968330638, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1744735968330679, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1744735968330724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1744735968331182, "dur":1940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1744735968333157, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1744735968333196, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1744735968333262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1744735968333266, "dur":1657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1744735968334956, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1744735968334991, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1744735968335102, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1744735968335105, "dur":1976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1744735968337113, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1744735968337147, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1744735968337235, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1744735968337239, "dur":2555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1744735968339828, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1744735968339866, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1744735968339902, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1744735968339912, "dur":2275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1744735968342218, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1744735968342254, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1744735968342311, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1744735968342315, "dur":3614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1744735968345958, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1744735968346034, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1744735968346072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1744735968346087, "dur":3503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1744735968349631, "dur":69182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1744735968418813, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1744735968418848, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1744735968418852, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1744735968419651, "dur":66781, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1744735968318859, "dur":322, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1744735968319181, "dur":3485, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1744735968322672, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1744735968322757, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1744735968322781, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1744735968324223, "dur":637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1744735968324886, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":14, "ts":1744735968324940, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1744735968324961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1744735968324965, "dur":783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":14, "ts":1744735968325773, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":14, "ts":1744735968325833, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1744735968325851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1744735968325855, "dur":710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":14, "ts":1744735968326589, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":14, "ts":1744735968326679, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1744735968326698, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1744735968326743, "dur":3387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":14, "ts":1744735968330163, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1744735968330207, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1744735968330245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1744735968330794, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1744735968331913, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1744735968331960, "dur":408, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1744735968332372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1744735968332377, "dur":1686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1744735968334098, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1744735968334132, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1744735968334248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1744735968334252, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1744735968335831, "dur":105760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1744735968441591, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1744735968441624, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1744735968441627, "dur":603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1744735968442250, "dur":44185, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968318885, "dur":303, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968319189, "dur":3466, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968322663, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1744735968322878, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968322916, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968344377, "dur":913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1744735968345320, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":15, "ts":1744735968345365, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968345405, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968345408, "dur":2801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":15, "ts":1744735968348267, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1744735968348298, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968348338, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968348341, "dur":3197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1744735968351568, "dur":858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":15, "ts":1744735968352426, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968352472, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968352476, "dur":9333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":15, "ts":1744735968361836, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":15, "ts":1744735968361884, "dur":369, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968362257, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968362261, "dur":2564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":15, "ts":1744735968364852, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1744735968364880, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968364918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968364922, "dur":4527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1744735968369475, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":15, "ts":1744735968369506, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968369571, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968369575, "dur":3058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":15, "ts":1744735968372662, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":15, "ts":1744735968372691, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968372870, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968372873, "dur":4693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":15, "ts":1744735968377594, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1744735968377624, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968377646, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968377649, "dur":4200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1744735968381900, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":15, "ts":1744735968381934, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968382016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968382020, "dur":4603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":15, "ts":1744735968386651, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":15, "ts":1744735968386695, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968386738, "dur":2519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":15, "ts":1744735968389297, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":15, "ts":1744735968389336, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968389342, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":15, "ts":1744735968390829, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":15, "ts":1744735968390863, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968390866, "dur":4064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":15, "ts":1744735968394979, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level8" }}
+,{ "pid":12345, "tid":15, "ts":1744735968395011, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968395014, "dur":2731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level8" }}
+,{ "pid":12345, "tid":15, "ts":1744735968397774, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level5" }}
+,{ "pid":12345, "tid":15, "ts":1744735968397807, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968397810, "dur":2346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level5" }}
+,{ "pid":12345, "tid":15, "ts":1744735968400183, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level10" }}
+,{ "pid":12345, "tid":15, "ts":1744735968400220, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968400223, "dur":1920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level10" }}
+,{ "pid":12345, "tid":15, "ts":1744735968402175, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":15, "ts":1744735968402215, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744735968402219, "dur":1926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":15, "ts":1744735968404176, "dur":82241, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968318912, "dur":283, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968319195, "dur":3449, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968322652, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1744735968322819, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968322856, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968334321, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1744735968335273, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744735968335311, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968335430, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968335434, "dur":1806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744735968337295, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744735968337333, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968337380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968337398, "dur":2341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744735968339771, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744735968339805, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968339849, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968339862, "dur":2463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744735968342368, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744735968342398, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968342498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968342502, "dur":2881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744735968345415, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744735968345450, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968345502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968345506, "dur":3590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744735968349128, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744735968349174, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968349331, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968349335, "dur":5664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744735968355031, "dur":2442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744735968357473, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968357714, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968357717, "dur":6187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744735968363934, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744735968363973, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968364012, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968364015, "dur":4799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744735968368841, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744735968368870, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968368991, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968368994, "dur":3293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744735968372312, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744735968372341, "dur":434, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968372779, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968372783, "dur":4876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744735968377686, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744735968377719, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968377739, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968377742, "dur":4635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744735968382404, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744735968382432, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968382470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968382474, "dur":2686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744735968385189, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":16, "ts":1744735968385318, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968385349, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968385920, "dur":711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":16, "ts":1744735968386662, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":16, "ts":1744735968386698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968386701, "dur":1638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":16, "ts":1744735968388371, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":16, "ts":1744735968388406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968388410, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":16, "ts":1744735968389299, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":16, "ts":1744735968389344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968389348, "dur":4146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":16, "ts":1744735968393523, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level9.resS" }}
+,{ "pid":12345, "tid":16, "ts":1744735968393569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968393573, "dur":2967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level9.resS" }}
+,{ "pid":12345, "tid":16, "ts":1744735968396576, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level6.resS" }}
+,{ "pid":12345, "tid":16, "ts":1744735968396611, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968396614, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level6.resS" }}
+,{ "pid":12345, "tid":16, "ts":1744735968398759, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level2.resS" }}
+,{ "pid":12345, "tid":16, "ts":1744735968398791, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968398794, "dur":2456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/level2.resS" }}
+,{ "pid":12345, "tid":16, "ts":1744735968401285, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PC/Desktop/Rocket science/Rocket science_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1744735968401339, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744735968401342, "dur":2299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PC/Desktop/Rocket science/Rocket science_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1744735968403673, "dur":82745, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744735968488740, "dur":1362, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1744735968515909, "dur": 694, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1744735968515756, "dur": 867, "ph": "X", "name": "Write chrome-trace events", "args": {} },

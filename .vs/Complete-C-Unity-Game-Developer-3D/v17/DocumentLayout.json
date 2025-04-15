@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E35D4AC-E371-C1C8-3665-0C173B6A4A4D}|Assembly-CSharp.csproj|C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\assets\\rocketcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E35D4AC-E371-C1C8-3665-0C173B6A4A4D}|Assembly-CSharp.csproj|solutionrelative:assets\\rocketcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|c:\\users\\pc\\onedrive\\documents\\github\\complete-c-unity-game-developer-3d\\assets\\scripts\\quitapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|solutionrelative:assets\\scripts\\quitapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|c:\\users\\pc\\onedrive\\documents\\github\\complete-c-unity-game-developer-3d\\assets\\scripts\\rocketmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\assets\\scripts\\rocketcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|solutionrelative:assets\\scripts\\rocketcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\assets\\scripts\\oscillator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|solutionrelative:assets\\scripts\\oscillator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\assets\\scripts\\rocketmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|solutionrelative:assets\\scripts\\rocketmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -27,28 +35,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RocketCollision.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\RocketCollision.cs",
-              "RelativeDocumentMoniker": "Assets\\RocketCollision.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\RocketCollision.cs",
-              "RelativeToolTip": "Assets\\RocketCollision.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCEAAAAoAAAAAAAAAA==",
+              "Title": "QuitApplication.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\QuitApplication.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\QuitApplication.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\QuitApplication.cs",
+              "RelativeToolTip": "Assets\\Scripts\\QuitApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T16:22:37.789Z",
+              "WhenOpened": "2025-04-15T16:47:28.219Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Oscillator.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\Oscillator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Oscillator.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\Oscillator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Oscillator.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswBoAAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T15:31:00.68Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "RocketCollision.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\RocketCollision.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RocketCollision.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\RocketCollision.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RocketCollision.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T15:28:02.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "RocketMovement.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\RocketMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RocketMovement.cs",
               "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\RocketMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\RocketMovement.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwFsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T03:12:48.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-25T03:12:48.692Z"
             }
           ]
         }
