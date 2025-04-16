@@ -6,36 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Section 3 = Rocket Boost/Scene/FlyOver.unity
-    guid: 061c7addfed5dc34a960d40a1afb4f3c
-  - enabled: 1
-    path: Assets/Section 3 = Rocket Boost/Scene/FlyUnder.unity
-    guid: be2b52d045cd6a041895c23d24031474
-  - enabled: 1
-    path: Assets/Section 3 = Rocket Boost/Scene/FlyBetween.unity
-    guid: 1be430bfcfbd13b49a0bf43a6fc009b4
-  - enabled: 1
-    path: Assets/Section 3 = Rocket Boost/Scene/FlyAndDodge.unity
-    guid: 6bb94129c899bc442ba78a29289f2ec2
-  - enabled: 1
-    path: Assets/Section 3 = Rocket Boost/Scene/FlyLevel1.unity
-    guid: 5cd692f98165c4c4a91b38a9d60e676d
-  - enabled: 1
-    path: Assets/Section 3 = Rocket Boost/Scene/FlyLevel2.unity
-    guid: db62f2521cc8c6541be9d1ef465abfd7
-  - enabled: 1
-    path: Assets/Section 3 = Rocket Boost/Scene/FlyLevel3.unity
-    guid: be4b71a438fbfa54cb9da7498a245d24
-  - enabled: 1
-    path: Assets/Section 3 = Rocket Boost/Scene/FlyLevel4.unity
-    guid: d84e086d813fc0f4b85c53b7596efb8e
-  - enabled: 1
-    path: Assets/Section 3 = Rocket Boost/Scene/FlyLevel5.unity
-    guid: 4d35b94a319e44d42a10ae32ac907f3e
-  - enabled: 1
-    path: Assets/Section 3 = Rocket Boost/Scene/FlyLevel6.unity
-    guid: c6e58e4c6adbbc14487def764a29ffd9
-  - enabled: 1
-    path: Assets/Section 3 = Rocket Boost/Scene/FlyLevel7.unity
-    guid: cee3dd27dd93c2048a5a4a369e27066c
+    path: Assets/Section 4 = Argon Assault/Scene/FirstScene.unity
+    guid: 4450da01c3514ca409edc1e3426a1198
   m_configObjects: {}
