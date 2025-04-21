@@ -339,6 +339,7 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/EnableGravity.cs"
+"Assets/Scripts/EnemySpaceShip.cs"
 "Assets/Scripts/LoadScene.cs"
 "Assets/Scripts/Mover.cs"
 "Assets/Scripts/ObjectHit.cs"
@@ -348,6 +349,8 @@
 "Assets/Scripts/RocketCollision.cs"
 "Assets/Scripts/RocketMovement.cs"
 "Assets/Scripts/Scorer.cs"
+"Assets/Scripts/SpaceShipCollisionHandler.cs"
+"Assets/Scripts/SpaceShipScore.cs"
 "Assets/Scripts/Spinner.cs"
 -langversion:9.0
 

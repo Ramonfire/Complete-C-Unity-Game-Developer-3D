@@ -5,17 +5,23 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 public class PlayerControls : MonoBehaviour
 {
+    [Header("Input settings")]
     [SerializeField] InputAction movement;
     [SerializeField] InputAction Fire;
-    [SerializeField] float HorizontalThrustFactor=2;
-    [SerializeField] float VerticalThrustFactor=2;
-    [SerializeField] float pitchFactor = -15f;
-    [SerializeField] float yawFactor = 25f;
-    [SerializeField] float rollFactor = 5f;
+
+    [Header("Movement Settings")]
+    [Tooltip("how fast the ship moves left to right")][SerializeField] float HorizontalThrustFactor=3;
+    [Tooltip("how fast the speed moves up and down")][SerializeField] float VerticalThrustFactor=3;
+    [Tooltip("bring the nose of the ship up or down")][SerializeField] float pitchFactor = -15f;
+    [Tooltip("bring the nose of the ship left or right")][SerializeField] float yawFactor = 25f;
+    [Tooltip("roll the ship left of right")][SerializeField] float rollFactor = 5f;
                      float xAxis;
                      float yAxis;
-    [SerializeField] float RotationHorizontalFactor = -5f;
-    [SerializeField] float RotationVerticalFactor = -5f;
+    [Tooltip("how far will the ship pitch")][SerializeField] float RotationHorizontalFactor = -5f;
+    [Tooltip("how will the ship roll")][SerializeField] float RotationVerticalFactor = -5f;
+
+    [Header("Weapons")]
+    [SerializeField] GameObject[] Lasers;
  
 
     // Start is called before the first frame update
@@ -38,7 +44,42 @@ public class PlayerControls : MonoBehaviour
     {
         ProcessTranslation();
         ProcessRotation();
+        ProcessFiring();
     }
+
+    private void ProcessFiring()
+    {
+        if (Fire.ReadValue<float>()>0f)
+        {
+            ShootLasers();
+        }
+        else
+        {
+            DisableLaser();
+        }
+    }
+
+    private void ShootLasers()
+    {
+        foreach(GameObject laser in Lasers)
+        {
+            SetEmitionStatus(laser,true);
+        }
+    }
+    private void DisableLaser()
+    {
+        foreach (GameObject laser in Lasers)
+        {
+            SetEmitionStatus(laser, false);
+        }
+    }
+
+    private static void SetEmitionStatus(GameObject laser,bool status)
+    {
+        var emission = laser.GetComponent<ParticleSystem>().emission;
+        emission.enabled = status;
+    }
+
 
     private void ProcessRotation()
     {

@@ -8,6 +8,9 @@ TagManager:
   - Friendly
   - Fuel
   - Menu
+  - Enemy
+  - Laser
+  - Scorer
   layers:
   - Default
   - TransparentFX

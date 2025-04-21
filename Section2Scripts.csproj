@@ -67,6 +67,9 @@
     <Compile Include="Assets\Scripts\Scorer.cs" />
     <Compile Include="Assets\Scripts\RocketMovement.cs" />
     <Compile Include="Assets\Scripts\RocketCollision.cs" />
+    <Compile Include="Assets\Scripts\SpaceShipCollisionHandler.cs" />
+    <Compile Include="Assets\Scripts\EnemySpaceShip.cs" />
+    <Compile Include="Assets\Scripts\SpaceShipScore.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\SectionsScripts.asmdef" />
