@@ -343,6 +343,7 @@
 "Assets/Scripts/EnemySpaceShip.cs"
 "Assets/Scripts/LoadScene.cs"
 "Assets/Scripts/Mover.cs"
+"Assets/Scripts/MusicPlayer.cs"
 "Assets/Scripts/ObjectHit.cs"
 "Assets/Scripts/Oscillator.cs"
 "Assets/Scripts/PlayerControls.cs"
