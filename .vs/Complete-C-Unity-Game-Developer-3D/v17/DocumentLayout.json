@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\assets\\scripts\\enemyspaceship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|c:\\users\\pc\\onedrive\\documents\\github\\complete-c-unity-game-developer-3d\\assets\\scripts\\musicplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|solutionrelative:assets\\scripts\\musicplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|c:\\users\\pc\\onedrive\\documents\\github\\complete-c-unity-game-developer-3d\\assets\\scripts\\enemyspaceship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|solutionrelative:assets\\scripts\\enemyspaceship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|c:\\users\\pc\\onedrive\\documents\\github\\complete-c-unity-game-developer-3d\\assets\\scripts\\spaceshipscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\assets\\scripts\\spaceshipscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|solutionrelative:assets\\scripts\\spaceshipscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +38,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "MusicPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\MusicPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MusicPlayer.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\MusicPlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MusicPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T17:03:53.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "SpaceShipScore.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\SpaceShipScore.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpaceShipScore.cs",
@@ -42,12 +59,11 @@
               "RelativeToolTip": "Assets\\Scripts\\SpaceShipScore.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T18:45:22.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T18:45:22.929Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EnemySpaceShip.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\EnemySpaceShip.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpaceShip.cs",
@@ -60,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SpaceShipCollisionHandler.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\SpaceShipCollisionHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpaceShipCollisionHandler.cs",
@@ -72,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PlayerControls.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\PlayerControls.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerControls.cs",
