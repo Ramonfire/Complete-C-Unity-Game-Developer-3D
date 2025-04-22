@@ -1,0 +1,694 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.4f1 (cb45f9cae8b7) revision 13321721'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 31887 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/PC/OneDrive/Documents/GitHub/Complete-C-Unity-Game-Developer-3D
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+57189
+Successfully changed project path to: C:/Users/PC/OneDrive/Documents/GitHub/Complete-C-Unity-Game-Developer-3D
+C:/Users/PC/OneDrive/Documents/GitHub/Complete-C-Unity-Game-Developer-3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 71.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/PC/OneDrive/Documents/GitHub/Complete-C-Unity-Game-Developer-3D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.7602
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.004933 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 64.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.389 seconds
+Domain Reload Profiling:
+	ReloadAssembly (390ms)
+		BeginReloadAssembly (47ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (278ms)
+			LoadAssemblies (46ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (58ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (16ms)
+			SetupLoadedEditorAssemblies (175ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (78ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004909 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\OneDrive\Documents\GitHub\Complete-C-Unity-Game-Developer-3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\OneDrive\Documents\GitHub\Complete-C-Unity-Game-Developer-3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 63.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.809 seconds
+Domain Reload Profiling:
+	ReloadAssembly (810ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (674ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (409ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (1.6 MB). Loaded Objects now: 4568.
+Memory consumption went from 239.8 MB to 238.1 MB.
+Total: 4.821100 ms (FindLiveObjects: 0.509800 ms CreateObjectMapping: 0.113100 ms MarkObjects: 3.749100 ms  DeleteObjects: 0.448100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1137005.061228 seconds.
+  path: Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/DeepSpaceBlueWithPlanet/backImage.png
+  artifactKey: Guid(04550512a36deb34887e513ee0f31545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/DeepSpaceBlueWithPlanet/backImage.png using Guid(04550512a36deb34887e513ee0f31545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19be76c2100c876c157268474913c885') in 0.077239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.653401 seconds.
+  path: Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/DeepSpaceGreen/backImage.png
+  artifactKey: Guid(968c95c521a144942bcb53ab0dba230e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/DeepSpaceGreen/backImage.png using Guid(968c95c521a144942bcb53ab0dba230e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018790b08afe62b628c6b7cfdc098b5f') in 0.016374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/DeepSpaceGreen/upImage.png
+  artifactKey: Guid(376b86c8806901b4990daf9dc1615895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/DeepSpaceGreen/upImage.png using Guid(376b86c8806901b4990daf9dc1615895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f31bdb67f5a8807160c666fd285ce5') in 0.011519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/DeepSpaceGreen/rightImage.png
+  artifactKey: Guid(7cc04e6ef3221c043afaef956af7b86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/DeepSpaceGreen/rightImage.png using Guid(7cc04e6ef3221c043afaef956af7b86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468f179e281f0cd855d4ff71db2cf99b') in 0.008425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.053533 seconds.
+  path: Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/DeepSpaceGreenWithPlanet/backImage.png
+  artifactKey: Guid(b8eac033bd49f0f4a8914a7454a2ec3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/DeepSpaceGreenWithPlanet/backImage.png using Guid(b8eac033bd49f0f4a8914a7454a2ec3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948e946d8718f6251c37f84e16d00b0d') in 0.015145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/DeepSpaceGreenWithPlanet/leftImage.png
+  artifactKey: Guid(25f74bd5fd43fe94a9bf7a33040c8fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/DeepSpaceGreenWithPlanet/leftImage.png using Guid(25f74bd5fd43fe94a9bf7a33040c8fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857d8f7c6609469d26ac4d00278a0c14') in 0.010965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.564574 seconds.
+  path: Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/DeepSpaceRed/backImage.png
+  artifactKey: Guid(0d37d5a7bd77d4c4d87538ec79a8c071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/DeepSpaceRed/backImage.png using Guid(0d37d5a7bd77d4c4d87538ec79a8c071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7517f6e3128c36c8261dc2180f69d288') in 0.019076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/DeepSpaceRed/leftImage.png
+  artifactKey: Guid(f4ff7b3598c10f443b97a6624d7226e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/DeepSpaceRed/leftImage.png using Guid(f4ff7b3598c10f443b97a6624d7226e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd510f307c9a9b29bc3749999996d55ba') in 0.012520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/DeepSpaceRed/rightImage.png
+  artifactKey: Guid(6ea2e7ab328ea214a97f55c279f4a884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/DeepSpaceRed/rightImage.png using Guid(6ea2e7ab328ea214a97f55c279f4a884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f29c4eb36d052ad4ddbc31dc49b06c') in 0.009799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.906871 seconds.
+  path: Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/DeepsSpaceRedWithPlanet/backImage.png
+  artifactKey: Guid(6601b262566e8ed48bcd94e544e0fd2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/DeepsSpaceRedWithPlanet/backImage.png using Guid(6601b262566e8ed48bcd94e544e0fd2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8107445e04e9093044053e2e5d6e26') in 0.014952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/DeepsSpaceRedWithPlanet/upImage.png
+  artifactKey: Guid(f0035d6da7d976a4f9e7d23bfa0fe7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/DeepsSpaceRedWithPlanet/upImage.png using Guid(f0035d6da7d976a4f9e7d23bfa0fe7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5f84e599f9981c62ea3ffb0201e6ac') in 0.011843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/DeepsSpaceRedWithPlanet/frontImage.png
+  artifactKey: Guid(7e077c5370349b247929c95a8b8ce75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/DeepsSpaceRedWithPlanet/frontImage.png using Guid(7e077c5370349b247929c95a8b8ce75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce35591b91cd7b8b3fc0aaff34a21d29') in 0.009696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.295424 seconds.
+  path: Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/Stars01/backImage.png
+  artifactKey: Guid(0fbf23bda4c210c44a0fe51c9bbaecc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/Stars01/backImage.png using Guid(0fbf23bda4c210c44a0fe51c9bbaecc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7edf45e895caab7b72c12dcf6947154') in 0.012921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/Stars01/leftImage.png
+  artifactKey: Guid(e93b91c50a583a949bd59be8a2f0e8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/Stars01/leftImage.png using Guid(e93b91c50a583a949bd59be8a2f0e8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2034a9e632136f0fb8273f253a13be') in 0.010747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/Stars01/upImage.png
+  artifactKey: Guid(1eee1a8f13e601d4e967192b6915486c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Material/Skybox/SkyBox Volume 2/Stars01/upImage.png using Guid(1eee1a8f13e601d4e967192b6915486c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348e3d7d3c3cdc58521d2fd4c47421e7') in 0.008419 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005410 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\OneDrive\Documents\GitHub\Complete-C-Unity-Game-Developer-3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\OneDrive\Documents\GitHub\Complete-C-Unity-Game-Developer-3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.814 seconds
+Domain Reload Profiling:
+	ReloadAssembly (815ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (649ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (171ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (357ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.6 MB). Loaded Objects now: 4585.
+Memory consumption went from 234.8 MB to 233.2 MB.
+Total: 4.264700 ms (FindLiveObjects: 0.456600 ms CreateObjectMapping: 0.142300 ms MarkObjects: 3.259000 ms  DeleteObjects: 0.406200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 223.866247 seconds.
+  path: Assets/Section 4 = Argon Assault/Material/Skybox/SpaceBox.mat
+  artifactKey: Guid(707c0c5a20814364e8cccbbc12431904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Material/Skybox/SpaceBox.mat using Guid(707c0c5a20814364e8cccbbc12431904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b017c6f03bf165b63b2a93cb7523d97c') in 0.069327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 236.322615 seconds.
+  path: Assets/Section 4 = Argon Assault/Material/Skybox/SpaceBox.mat
+  artifactKey: Guid(707c0c5a20814364e8cccbbc12431904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Material/Skybox/SpaceBox.mat using Guid(707c0c5a20814364e8cccbbc12431904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f441bc6f6f7fb2bb89c2937d3021c4d0') in 0.019287 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004592 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\OneDrive\Documents\GitHub\Complete-C-Unity-Game-Developer-3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\OneDrive\Documents\GitHub\Complete-C-Unity-Game-Developer-3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.901 seconds
+Domain Reload Profiling:
+	ReloadAssembly (902ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (714ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (202ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (379ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (284ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.6 MB). Loaded Objects now: 4638.
+Memory consumption went from 239.3 MB to 237.7 MB.
+Total: 5.191200 ms (FindLiveObjects: 0.462900 ms CreateObjectMapping: 0.163400 ms MarkObjects: 3.851000 ms  DeleteObjects: 0.712800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005112 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\OneDrive\Documents\GitHub\Complete-C-Unity-Game-Developer-3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\OneDrive\Documents\GitHub\Complete-C-Unity-Game-Developer-3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  0.834 seconds
+Domain Reload Profiling:
+	ReloadAssembly (835ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (666ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (158ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (391ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (304ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4162 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (4.8 MB). Loaded Objects now: 4747.
+Memory consumption went from 249.6 MB to 244.8 MB.
+Total: 5.901100 ms (FindLiveObjects: 0.469100 ms CreateObjectMapping: 0.183300 ms MarkObjects: 3.450300 ms  DeleteObjects: 1.797500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 255.425221 seconds.
+  path: Assets/Section 4 = Argon Assault/post processing
+  artifactKey: Guid(af24e0de6c7a9a24cb08940c10fdfbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/post processing using Guid(af24e0de6c7a9a24cb08940c10fdfbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9142e92ca3d31fbf111a2db5c5d3ecc') in 0.014053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.875586 seconds.
+  path: Assets/Section 4 = Argon Assault/post processing/MainSceneProfile.asset
+  artifactKey: Guid(305e7eaf00f4f2944b87cf111e9c002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/post processing/MainSceneProfile.asset using Guid(305e7eaf00f4f2944b87cf111e9c002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a401495645c6de9c098cd0f0e25987b0') in 0.023280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 106.558061 seconds.
+  path: Assets/Section 4 = Argon Assault/post processing/Post Processing.prefab
+  artifactKey: Guid(51d002211e5977b43ab55356eeaf6fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/post processing/Post Processing.prefab using Guid(51d002211e5977b43ab55356eeaf6fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc6b54861be3316c5d12d907c21256f') in 0.017978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.560457 seconds.
+  path: Assets/Section 4 = Argon Assault/post processing/MainSceneProfile.asset
+  artifactKey: Guid(305e7eaf00f4f2944b87cf111e9c002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/post processing/MainSceneProfile.asset using Guid(305e7eaf00f4f2944b87cf111e9c002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a7c988f62f60484b7d70391aaad3c7') in 0.004952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.387618 seconds.
+  path: Assets/Section 4 = Argon Assault/post processing/MainSceneProfile.asset
+  artifactKey: Guid(305e7eaf00f4f2944b87cf111e9c002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/post processing/MainSceneProfile.asset using Guid(305e7eaf00f4f2944b87cf111e9c002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdf04ae561ec41401624c10c493b966') in 0.002347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.215944 seconds.
+  path: Assets/Section 4 = Argon Assault/post processing/MainSceneProfile.asset
+  artifactKey: Guid(305e7eaf00f4f2944b87cf111e9c002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/post processing/MainSceneProfile.asset using Guid(305e7eaf00f4f2944b87cf111e9c002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fe9252378b3f46d8f1a247092d07bd') in 0.002516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.278289 seconds.
+  path: Assets/Section 4 = Argon Assault/post processing/MainSceneProfile.asset
+  artifactKey: Guid(305e7eaf00f4f2944b87cf111e9c002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/post processing/MainSceneProfile.asset using Guid(305e7eaf00f4f2944b87cf111e9c002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd363fc91f37dc1c01b7a314586f5337b') in 0.003301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.128556 seconds.
+  path: Assets/Section 4 = Argon Assault/post processing/MainSceneProfile.asset
+  artifactKey: Guid(305e7eaf00f4f2944b87cf111e9c002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/post processing/MainSceneProfile.asset using Guid(305e7eaf00f4f2944b87cf111e9c002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2a91682226725c8dd26c786b61f7e7') in 0.002610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.517961 seconds.
+  path: Assets/Section 4 = Argon Assault/post processing/MainSceneProfile.asset
+  artifactKey: Guid(305e7eaf00f4f2944b87cf111e9c002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/post processing/MainSceneProfile.asset using Guid(305e7eaf00f4f2944b87cf111e9c002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ed8f470719840f84c60ef797030394') in 0.002249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.563967 seconds.
+  path: Assets/Section 4 = Argon Assault/post processing/MainSceneProfile.asset
+  artifactKey: Guid(305e7eaf00f4f2944b87cf111e9c002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/post processing/MainSceneProfile.asset using Guid(305e7eaf00f4f2944b87cf111e9c002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45df2d04412152d6a23258d4d3341926') in 0.004767 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007037 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\OneDrive\Documents\GitHub\Complete-C-Unity-Game-Developer-3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\OneDrive\Documents\GitHub\Complete-C-Unity-Game-Developer-3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.912 seconds
+Domain Reload Profiling:
+	ReloadAssembly (913ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (730ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (183ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (411ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (310ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4162 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (4.8 MB). Loaded Objects now: 4762.
+Memory consumption went from 249.6 MB to 244.8 MB.
+Total: 5.935700 ms (FindLiveObjects: 0.765100 ms CreateObjectMapping: 0.153800 ms MarkObjects: 3.377000 ms  DeleteObjects: 1.638900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 191.644386 seconds.
+  path: Assets/Section 4 = Argon Assault/Prefab/Player Rig.prefab
+  artifactKey: Guid(c363ca801b79a9747a608949aa94e1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Prefab/Player Rig.prefab using Guid(c363ca801b79a9747a608949aa94e1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210b2dd2fc53bfadd4910e2d5e968412') in 0.085029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.929053 seconds.
+  path: Assets/Section 4 = Argon Assault/Prefab/Space Ships Assets/Voxel Ships/Models
+  artifactKey: Guid(1fd5ce21827151c47909cacf953d7601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Prefab/Space Ships Assets/Voxel Ships/Models using Guid(1fd5ce21827151c47909cacf953d7601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269476973d27d31d657938bb63627364') in 0.008873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.123940 seconds.
+  path: Assets/Section 4 = Argon Assault/Prefab/Space Ships Assets/Voxel Ships/Models/Tri-Shot.obj
+  artifactKey: Guid(a921edb48b3bbe84680ba944e248a06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Prefab/Space Ships Assets/Voxel Ships/Models/Tri-Shot.obj using Guid(a921edb48b3bbe84680ba944e248a06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b1de998bf86f6e5f73c420e68d41d8') in 0.097785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.133492 seconds.
+  path: Assets/Section 4 = Argon Assault/Prefab/Space Ships Assets/Voxel Ships/Materials/ModelMaterial.mat
+  artifactKey: Guid(d7d475a74f950f242be97d10ff966769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Prefab/Space Ships Assets/Voxel Ships/Materials/ModelMaterial.mat using Guid(d7d475a74f950f242be97d10ff966769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31cca4f598e6a0f4eac57ca2be13d298') in 0.020666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 506.004184 seconds.
+  path: Assets/Section 4 = Argon Assault/Prefab/Enemies/Beamer.prefab
+  artifactKey: Guid(107c5baa10f54ca4d9f3997b196c24ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Prefab/Enemies/Beamer.prefab using Guid(107c5baa10f54ca4d9f3997b196c24ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21af8569bd03a2ea74f9f6b5cd68d810') in 0.027282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Section 4 = Argon Assault/Prefab/Enemies/Swirler.prefab
+  artifactKey: Guid(0eb39c1c79dd804498a9f6dec3d944db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Prefab/Enemies/Swirler.prefab using Guid(0eb39c1c79dd804498a9f6dec3d944db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32c8635e6a79af507e3c07190327f71') in 0.036147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Section 4 = Argon Assault/Prefab/Enemies/The Ram.prefab
+  artifactKey: Guid(0d5aa3c0747ed6c4da889cb35d1856c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Prefab/Enemies/The Ram.prefab using Guid(0d5aa3c0747ed6c4da889cb35d1856c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0fc4b3a12ff527db800e3705c741f23') in 0.013925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.598086 seconds.
+  path: Assets/Section 4 = Argon Assault/Prefab/Enemies/Destroyer.prefab
+  artifactKey: Guid(c10d1a54c8eca3149b9cfe5b9d821017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Prefab/Enemies/Destroyer.prefab using Guid(c10d1a54c8eca3149b9cfe5b9d821017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ceda31332b6151b8688be917669f63') in 0.015673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.955882 seconds.
+  path: Assets/Section 4 = Argon Assault/Prefab/Enemies/Beamer.prefab
+  artifactKey: Guid(107c5baa10f54ca4d9f3997b196c24ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Prefab/Enemies/Beamer.prefab using Guid(107c5baa10f54ca4d9f3997b196c24ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2a30f776d447ba7b629f2eb1fb47d9') in 0.036431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Section 4 = Argon Assault/Prefab/Enemies/Swirler.prefab
+  artifactKey: Guid(0eb39c1c79dd804498a9f6dec3d944db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Prefab/Enemies/Swirler.prefab using Guid(0eb39c1c79dd804498a9f6dec3d944db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281f3c2128282f771f2c1a02bf221fc7') in 0.028681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Section 4 = Argon Assault/Prefab/Enemies/The Ram.prefab
+  artifactKey: Guid(0d5aa3c0747ed6c4da889cb35d1856c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Section 4 = Argon Assault/Prefab/Enemies/The Ram.prefab using Guid(0d5aa3c0747ed6c4da889cb35d1856c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a963b267140eb9a947eca25e7367c66') in 0.035656 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005745 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\OneDrive\Documents\GitHub\Complete-C-Unity-Game-Developer-3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\OneDrive\Documents\GitHub\Complete-C-Unity-Game-Developer-3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.875 seconds
+Domain Reload Profiling:
+	ReloadAssembly (876ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (709ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (191ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (389ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (289ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4162 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 74 unused Assets / (4.8 MB). Loaded Objects now: 4780.
+Memory consumption went from 250.0 MB to 245.2 MB.
+Total: 6.063900 ms (FindLiveObjects: 0.465000 ms CreateObjectMapping: 0.104700 ms MarkObjects: 3.606600 ms  DeleteObjects: 1.887000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

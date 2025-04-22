@@ -41,7 +41,7 @@ public class EnemySpaceShip : MonoBehaviour
         Hp--;
         if (HitEffect != null)
         {
-            Instantiate(explosionEffect, transform.position, Quaternion.identity);
+            Instantiate(HitEffect, transform.position, Quaternion.identity);
         }
         if (Hp == 0)
         { 
