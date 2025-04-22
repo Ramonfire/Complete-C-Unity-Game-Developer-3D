@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|c:\\users\\pc\\onedrive\\documents\\github\\complete-c-unity-game-developer-3d\\assets\\scripts\\enemyspaceship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\assets\\scripts\\enemyspaceship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|solutionrelative:assets\\scripts\\enemyspaceship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|c:\\users\\pc\\onedrive\\documents\\github\\complete-c-unity-game-developer-3d\\assets\\scripts\\spaceshipscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|solutionrelative:assets\\scripts\\spaceshipscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\assets\\scripts\\spaceshipcollisionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SpaceShipScore.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\SpaceShipScore.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpaceShipScore.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\SpaceShipScore.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpaceShipScore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T18:45:22.929Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -36,14 +53,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpaceShip.cs",
               "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\EnemySpaceShip.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemySpaceShip.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCAAAACXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T16:33:30.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SpaceShipCollisionHandler.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\SpaceShipCollisionHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpaceShipCollisionHandler.cs",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PlayerControls.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\PlayerControls.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerControls.cs",

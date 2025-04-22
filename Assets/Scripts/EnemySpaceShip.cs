@@ -5,16 +5,23 @@ using UnityEngine;
 public class EnemySpaceShip : MonoBehaviour
 {
     [SerializeField] ParticleSystem explosionEffect;
+    [SerializeField] ParticleSystem HitEffect;
     bool isTransitioning;
     [SerializeField] float _delay=0.5f;
     [SerializeField] SpaceShipScore scoreBoard;
     [SerializeField] long reward=1;
+    [SerializeField] float Hp=1;
 
 
 
     private void Start()
     {
         scoreBoard = FindObjectOfType<SpaceShipScore>();// only one exist per scene therefore we can fetch it this way
+        if (!GetComponent<Rigidbody>()) //if there is no rigid body make one
+        {
+            Rigidbody rb = gameObject.AddComponent<Rigidbody>();
+            rb.useGravity = false;
+        }
     }
 
 
@@ -24,18 +31,26 @@ public class EnemySpaceShip : MonoBehaviour
             return;
         if (other.CompareTag("Laser"))
         {
-            isTransitioning = true;
-            StartDestructionSequence();
+                ProcessHit();
             
         }
     }
 
-    private void StartDestructionSequence()
+    private void ProcessHit()
     {
-        IEnumerator destructionSequence = DestoryObjectSequence();
-        scoreBoard.AddToScore(reward);//increase the score
-        StartCoroutine(destructionSequence);
-    
+        Hp--;
+        if (HitEffect != null)
+        {
+            Instantiate(explosionEffect, transform.position, Quaternion.identity);
+        }
+        if (Hp == 0)
+        { 
+            isTransitioning = true;
+            scoreBoard.AddToScore(reward);//increase the score if the enemy is killed
+            IEnumerator destructionSequence = DestoryObjectSequence();
+            StartCoroutine(destructionSequence);
+        }
+
     }
 
     private IEnumerator DestoryObjectSequence()
@@ -55,7 +70,7 @@ public class EnemySpaceShip : MonoBehaviour
     {
         ParticleSystem explosionObject = null;
         if (explosionEffect != null)
-            explosionObject = Instantiate(explosionEffect, transform.position, Quaternion.identity);//Create a new instance of the object then play it
+            explosionObject = Instantiate(explosionEffect, transform.position, Quaternion.identity);
 
     }
 }

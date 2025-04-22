@@ -129,9 +129,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosionEffect: {fileID: 198204746014789312, guid: 75ff0e5709fb4f74fbc9fae8cb7ac079, type: 3}
+  HitEffect: {fileID: 198204746014789312, guid: d5152fbf9eb31f84e992b676eca404db, type: 3}
   _delay: 0.5
   scoreBoard: {fileID: 0}
   reward: 3
+  Hp: 1
 --- !u!1 &3968517756499155483
 GameObject:
   m_ObjectHideFlags: 0

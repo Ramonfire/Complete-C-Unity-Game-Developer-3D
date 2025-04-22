@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\EnableGravity.cs" />
+    <Compile Include="Assets\Scripts\SpaceShipScore.cs" />
     <Compile Include="Assets\Scripts\QuitApplication.cs" />
     <Compile Include="Assets\Scripts\Spinner.cs" />
     <Compile Include="Assets\Scripts\Oscillator.cs" />
@@ -64,12 +65,11 @@
     <Compile Include="Assets\Scripts\PlayerControls.cs" />
     <Compile Include="Assets\Scripts\LoadScene.cs" />
     <Compile Include="Assets\Scripts\Mover.cs" />
+    <Compile Include="Assets\Scripts\EnemySpaceShip.cs" />
+    <Compile Include="Assets\Scripts\SpaceShipCollisionHandler.cs" />
     <Compile Include="Assets\Scripts\Scorer.cs" />
     <Compile Include="Assets\Scripts\RocketMovement.cs" />
     <Compile Include="Assets\Scripts\RocketCollision.cs" />
-    <Compile Include="Assets\Scripts\SpaceShipCollisionHandler.cs" />
-    <Compile Include="Assets\Scripts\EnemySpaceShip.cs" />
-    <Compile Include="Assets\Scripts\SpaceShipScore.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\SectionsScripts.asmdef" />
@@ -728,6 +728,9 @@
     </Reference>
     <Reference Include="Unity.InputSystem">
       <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>

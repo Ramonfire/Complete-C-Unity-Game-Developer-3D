@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class SpaceShipScore : MonoBehaviour
 {
@@ -9,9 +10,14 @@ public class SpaceShipScore : MonoBehaviour
     void Start()
     {
         _score = 0;
+        GetComponent<TMP_Text>().SetText("Score: \n " + _score);
     }
 
-    public void AddToScore(long inScoreValue) { _score+=inScoreValue; }
+    public void AddToScore(long inScoreValue) 
+    { 
+        _score+=inScoreValue;
+        GetComponent<TMP_Text>().SetText("Score: \n "+_score);
+    }
 
     public long getScore() { return _score; }
 
