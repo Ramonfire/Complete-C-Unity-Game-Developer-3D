@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Section 4 = Argon Assault/Scene/FirstScene.unity
-    guid: 4450da01c3514ca409edc1e3426a1198
+    path: Assets/Section 5 = Realm Rush/Scenes/First Scene.unity
+    guid: 71c00de37f78daa45aea636e5c74f663
   m_configObjects: {}

@@ -103,7 +103,9 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
@@ -296,16 +298,23 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll"
 -r:"C:/Users/PC/OneDrive/Documents/GitHub/Complete-C-Unity-Game-Developer-3D/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll"
 -r:"C:/Users/PC/OneDrive/Documents/GitHub/Complete-C-Unity-Game-Developer-3D/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Unity.InputSystem.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/EnableGravity.cs"
+"Assets/Scripts/EnemySpaceShip.cs"
 "Assets/Scripts/LoadScene.cs"
 "Assets/Scripts/Mover.cs"
+"Assets/Scripts/MusicPlayer.cs"
 "Assets/Scripts/ObjectHit.cs"
 "Assets/Scripts/Oscillator.cs"
+"Assets/Scripts/PlayerControls.cs"
 "Assets/Scripts/QuitApplication.cs"
 "Assets/Scripts/RocketCollision.cs"
 "Assets/Scripts/RocketMovement.cs"
 "Assets/Scripts/Scorer.cs"
+"Assets/Scripts/SpaceShipCollisionHandler.cs"
+"Assets/Scripts/SpaceShipScore.cs"
 "Assets/Scripts/Spinner.cs"
 -langversion:9.0
 
