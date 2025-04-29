@@ -56,21 +56,24 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\EnableGravity.cs" />
-    <Compile Include="Assets\Scripts\SpaceShipScore.cs" />
-    <Compile Include="Assets\Scripts\QuitApplication.cs" />
-    <Compile Include="Assets\Scripts\Spinner.cs" />
-    <Compile Include="Assets\Scripts\Oscillator.cs" />
-    <Compile Include="Assets\Scripts\ObjectHit.cs" />
-    <Compile Include="Assets\Scripts\PlayerControls.cs" />
-    <Compile Include="Assets\Scripts\LoadScene.cs" />
-    <Compile Include="Assets\Scripts\Mover.cs" />
-    <Compile Include="Assets\Scripts\EnemySpaceShip.cs" />
-    <Compile Include="Assets\Scripts\SpaceShipCollisionHandler.cs" />
-    <Compile Include="Assets\Scripts\Scorer.cs" />
-    <Compile Include="Assets\Scripts\RocketMovement.cs" />
-    <Compile Include="Assets\Scripts\RocketCollision.cs" />
-    <Compile Include="Assets\Scripts\MusicPlayer.cs" />
+    <Compile Include="Assets\Scripts\Section 2\EnableGravity.cs" />
+    <Compile Include="Assets\Scripts\Section 4\SpaceShipScore.cs" />
+    <Compile Include="Assets\Scripts\Section 3\QuitApplication.cs" />
+    <Compile Include="Assets\Scripts\Section 2\Spinner.cs" />
+    <Compile Include="Assets\Scripts\Section 3\Oscillator.cs" />
+    <Compile Include="Assets\Scripts\Section 2\ObjectHit.cs" />
+    <Compile Include="Assets\Scripts\Section 4\PlayerControls.cs" />
+    <Compile Include="Assets\Scripts\Section 2\LoadScene.cs" />
+    <Compile Include="Assets\Scripts\Section 2\Mover.cs" />
+    <Compile Include="Assets\Scripts\Section 4\EnemySpaceShip.cs" />
+    <Compile Include="Assets\Scripts\Section 4\SpaceShipCollisionHandler.cs" />
+    <Compile Include="Assets\Scripts\Section 2\Scorer.cs" />
+    <Compile Include="Assets\Scripts\Section 3\RocketMovement.cs" />
+    <Compile Include="Assets\Scripts\Section 3\RocketCollision.cs" />
+    <Compile Include="Assets\Scripts\Section 4\MusicPlayer.cs" />
+    <Compile Include="Assets\Scripts\Section 5\CoordinateLaberer.cs" />
+    <Compile Include="Assets\Scripts\Section 5\WayPoint.cs" />
+    <Compile Include="Assets\Scripts\Section 5\EnemyMover.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\SectionsScripts.asmdef" />
