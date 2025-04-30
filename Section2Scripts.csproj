@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\Section 5\CoordinateLaberer.cs" />
     <Compile Include="Assets\Scripts\Section 2\EnableGravity.cs" />
     <Compile Include="Assets\Scripts\Section 4\SpaceShipScore.cs" />
+    <Compile Include="Assets\Scripts\Section 5\ObjectPool.cs" />
     <Compile Include="Assets\Scripts\Section 3\QuitApplication.cs" />
     <Compile Include="Assets\Scripts\Section 2\Spinner.cs" />
     <Compile Include="Assets\Scripts\Section 5\EnemyMover.cs" />

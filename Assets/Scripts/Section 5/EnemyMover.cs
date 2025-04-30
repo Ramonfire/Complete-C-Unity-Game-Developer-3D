@@ -1,4 +1,3 @@
-using log4net.Util;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,12 +9,31 @@ public class EnemyMover : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        FindPath();
+        JumpToStartingTile();//move the object to the starting tile
         FollowPath();//follow Path when you wake up
     }
 
     private void Update()
     {
-        
+
+    }
+
+    private void FindPath() 
+    {
+        path.Clear();
+        GameObject parent = GameObject.FindGameObjectWithTag("Path");//get the parent Object with the path tag to ensure we keep the correct order of our objects
+
+        foreach (Transform waypoint in parent.transform)// for each child in the transform(transform contains the children(sounds fucked up))
+        {
+            path.Add(waypoint.GetComponent<WayPoint>());//fill our list
+        }
+    
+    }
+ 
+    private void JumpToStartingTile() 
+    {
+        transform.position = path[0].transform.position;
     }
 
     private void FollowPath()
@@ -25,7 +43,7 @@ public class EnemyMover : MonoBehaviour
 
     private IEnumerator MoveToNextTile()
     {
-      
+
         foreach (WayPoint waypoint in path)
         {
             Vector3 StartPosition = transform.position;
@@ -34,11 +52,17 @@ public class EnemyMover : MonoBehaviour
             transform.LookAt(EndPosition);//face where you are going
             while (TravelPercent < 1f)
             {
-                TravelPercent += Time.deltaTime*Speed;
+                TravelPercent += Time.deltaTime * Speed;
                 transform.position = Vector3.Lerp(StartPosition, EndPosition, TravelPercent);
                 yield return new WaitForEndOfFrame();
             }
-          
+
         }
+        ArrivedToTarget();
+    }
+
+    private void ArrivedToTarget()
+    {
+        Destroy(gameObject);//got the last tile time to destroy
     }
 }

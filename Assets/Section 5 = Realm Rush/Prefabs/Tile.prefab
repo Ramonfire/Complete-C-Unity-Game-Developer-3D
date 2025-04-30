@@ -193,8 +193,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -268,6 +268,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e20f4315080b6940bf129b4123df82b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  occupiedColor: {r: 0, g: 0, b: 1, a: 1}
+  blockedColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &2923809283237748762
 GameObject:
   m_ObjectHideFlags: 0
@@ -315,9 +318,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b9000a3451618446be03b100c69d8e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isPlacable: 1
+  isPlaceable: 1
   BallistaPrefab: {fileID: 3219458064393657486, guid: 8a965e088bae16643aab3d07ccfd5e2e, type: 3}
-  Ballista: {fileID: 0}
+  BallistaObject: {fileID: 0}
 --- !u!65 &4816207118392273725
 BoxCollider:
   m_ObjectHideFlags: 0

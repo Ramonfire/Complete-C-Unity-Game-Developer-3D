@@ -6,7 +6,7 @@ using UnityEngine.UIElements;
 
 public class WayPoint : MonoBehaviour
 {
-    [SerializeField] bool isPlacable =false;//modify it from the edit mode
+    [SerializeField] bool isPlaceable  =false;//modify it from the edit mode
     [SerializeField] GameObject BallistaPrefab;
     [SerializeField] GameObject BallistaObject;
     bool isOccupied;
@@ -28,7 +28,7 @@ public class WayPoint : MonoBehaviour
         {
             UpgradeBallista();
         }
-        else if (isPlacable && !isOccupied && Input.GetMouseButtonDown(0)) // if i can place objects into an unoccupied tile and a click action is triggered
+        else if (isPlaceable && !isOccupied && Input.GetMouseButtonDown(0)) // if i can place objects into an unoccupied tile and a click action is triggered
         {
             BallistaObject = Instantiate(BallistaPrefab, transform.position, Quaternion.identity);
             isOccupied = true;
@@ -40,5 +40,16 @@ public class WayPoint : MonoBehaviour
     private void UpgradeBallista()
     {
         Debug.Log("Upgrading Ballista");
+    }
+
+
+    public bool IsPlaceable()
+    {
+            return isPlaceable; 
+    }
+
+    public bool IsOccupied()
+    {
+        return isOccupied;
     }
 }
