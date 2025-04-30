@@ -1,3 +1,4 @@
+using log4net.Util;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,7 +6,7 @@ using UnityEngine;
 public class EnemyMover : MonoBehaviour
 {
     [SerializeField] List<WayPoint> path = new();//simplified for new List<Waypoint>()
-    [SerializeField] float waitTime = 2f;
+    [SerializeField][Range(0f,5f)] float Speed = 0.5f;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,10 +25,20 @@ public class EnemyMover : MonoBehaviour
 
     private IEnumerator MoveToNextTile()
     {
+      
         foreach (WayPoint waypoint in path)
         {
-            transform.position = waypoint.transform.position;// move the enemy to the next tile
-            yield return new WaitForSeconds(waitTime);
+            Vector3 StartPosition = transform.position;
+            Vector3 EndPosition = waypoint.transform.position;
+            float TravelPercent = 0f;
+            transform.LookAt(EndPosition);//face where you are going
+            while (TravelPercent < 1f)
+            {
+                TravelPercent += Time.deltaTime*Speed;
+                transform.position = Vector3.Lerp(StartPosition, EndPosition, TravelPercent);
+                yield return new WaitForEndOfFrame();
+            }
+          
         }
     }
 }

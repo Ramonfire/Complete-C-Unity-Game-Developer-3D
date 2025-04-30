@@ -356,7 +356,9 @@
 "Assets/Scripts/Section 4/SpaceShipCollisionHandler.cs"
 "Assets/Scripts/Section 4/SpaceShipScore.cs"
 "Assets/Scripts/Section 5/CoordinateLaberer.cs"
+"Assets/Scripts/Section 5/EnemyHealth.cs"
 "Assets/Scripts/Section 5/EnemyMover.cs"
+"Assets/Scripts/Section 5/TargetTracker.cs"
 "Assets/Scripts/Section 5/WayPoint.cs"
 -langversion:9.0
 
