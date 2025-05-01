@@ -47,6 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turret: {fileID: 3144582324300694500}
+  projectileParticles: {fileID: 6191465563054843921}
 --- !u!1 &6131056645070147807
 GameObject:
   m_ObjectHideFlags: 0

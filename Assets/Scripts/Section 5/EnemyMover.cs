@@ -6,8 +6,11 @@ public class EnemyMover : MonoBehaviour
 {
     [SerializeField] List<WayPoint> path = new();//simplified for new List<Waypoint>()
     [SerializeField][Range(0f,5f)] float Speed = 0.5f;
-    // Start is called before the first frame update
-    void Start()
+
+
+
+    // OnEnable called everytime the object s enabled
+    void OnEnable()
     {
         FindPath();
         JumpToStartingTile();//move the object to the starting tile
@@ -63,6 +66,6 @@ public class EnemyMover : MonoBehaviour
 
     private void ArrivedToTarget()
     {
-        Destroy(gameObject);//got the last tile time to destroy
+        gameObject.SetActive(false);
     }
 }
