@@ -319,7 +319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlaceable: 1
-  BallistaPrefab: {fileID: 3219458064393657486, guid: 8a965e088bae16643aab3d07ccfd5e2e, type: 3}
+  BallistaPrefab: {fileID: 5760224458358922269, guid: 8a965e088bae16643aab3d07ccfd5e2e, type: 3}
   BallistaObject: {fileID: 0}
 --- !u!65 &4816207118392273725
 BoxCollider:

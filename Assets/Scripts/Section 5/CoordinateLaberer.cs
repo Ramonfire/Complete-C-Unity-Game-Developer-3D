@@ -68,13 +68,13 @@ public class CoordinateLaberer : MonoBehaviour
     }
     private void ColorCoords()
     {
-        if (!wayPoint.IsPlaceable())
+        if (!wayPoint.IsPlaceable)
         {
             SetLabelColor(blockedColor);
             return;
         }
 
-        if (wayPoint.IsOccupied())
+        if (wayPoint.IsOccupied)
         {
             SetLabelColor(occupiedColor);
         }

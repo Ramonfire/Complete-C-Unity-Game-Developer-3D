@@ -6,7 +6,7 @@ public class EnemyMover : MonoBehaviour
 {
     [SerializeField] List<WayPoint> path = new();//simplified for new List<Waypoint>()
     [SerializeField][Range(0f,5f)] float Speed = 0.5f;
-
+    Enemy enemy;
 
 
     // OnEnable called everytime the object s enabled
@@ -15,6 +15,11 @@ public class EnemyMover : MonoBehaviour
         FindPath();
         JumpToStartingTile();//move the object to the starting tile
         FollowPath();//follow Path when you wake up
+    }
+
+    private void Start()
+    {
+        enemy = GetComponent<Enemy>();
     }
 
     private void Update()
@@ -66,6 +71,7 @@ public class EnemyMover : MonoBehaviour
 
     private void ArrivedToTarget()
     {
+        enemy.Penalize();
         gameObject.SetActive(false);
     }
 }

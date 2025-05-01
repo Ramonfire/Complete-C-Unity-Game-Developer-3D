@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Section 5\Enemy.cs" />
     <Compile Include="Assets\Scripts\Section 5\CoordinateLaberer.cs" />
     <Compile Include="Assets\Scripts\Section 2\EnableGravity.cs" />
     <Compile Include="Assets\Scripts\Section 4\SpaceShipScore.cs" />
@@ -77,7 +78,8 @@
     <Compile Include="Assets\Scripts\Section 3\RocketMovement.cs" />
     <Compile Include="Assets\Scripts\Section 3\RocketCollision.cs" />
     <Compile Include="Assets\Scripts\Section 4\MusicPlayer.cs" />
-    <Compile Include="Assets\Scripts\Section 5\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Section 5\Bank.cs" />
+    <Compile Include="Assets\Scripts\Section 5\Tower.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\SectionsScripts.asmdef" />
