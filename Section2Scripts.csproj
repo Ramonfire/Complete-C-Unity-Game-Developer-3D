@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Section 5\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Section 5\Bank.cs" />
     <Compile Include="Assets\Scripts\Section 5\CoordinateLaberer.cs" />
     <Compile Include="Assets\Scripts\Section 2\EnableGravity.cs" />
     <Compile Include="Assets\Scripts\Section 4\SpaceShipScore.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="Assets\Scripts\Section 2\Spinner.cs" />
     <Compile Include="Assets\Scripts\Section 5\EnemyMover.cs" />
     <Compile Include="Assets\Scripts\Section 3\Oscillator.cs" />
+    <Compile Include="Assets\Scripts\Section 5\Tower.cs" />
     <Compile Include="Assets\Scripts\Section 2\ObjectHit.cs" />
     <Compile Include="Assets\Scripts\Section 4\PlayerControls.cs" />
     <Compile Include="Assets\Scripts\Section 5\EnemyHealth.cs" />
@@ -78,8 +80,7 @@
     <Compile Include="Assets\Scripts\Section 3\RocketMovement.cs" />
     <Compile Include="Assets\Scripts\Section 3\RocketCollision.cs" />
     <Compile Include="Assets\Scripts\Section 4\MusicPlayer.cs" />
-    <Compile Include="Assets\Scripts\Section 5\Bank.cs" />
-    <Compile Include="Assets\Scripts\Section 5\Tower.cs" />
+    <Compile Include="Assets\Scripts\Section 5\DisplayScore.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\SectionsScripts.asmdef" />

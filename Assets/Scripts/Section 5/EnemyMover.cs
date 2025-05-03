@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+[RequireComponent(typeof(Enemy))]
 public class EnemyMover : MonoBehaviour
 {
     [SerializeField] List<WayPoint> path = new();//simplified for new List<Waypoint>()
@@ -32,9 +32,11 @@ public class EnemyMover : MonoBehaviour
         path.Clear();
         GameObject parent = GameObject.FindGameObjectWithTag("Path");//get the parent Object with the path tag to ensure we keep the correct order of our objects
 
-        foreach (Transform waypoint in parent.transform)// for each child in the transform(transform contains the children(sounds fucked up))
+        foreach (Transform child in parent.transform)// for each child in the transform(transform contains the children(sounds fucked up))
         {
-            path.Add(waypoint.GetComponent<WayPoint>());//fill our list
+            WayPoint waypoint = child.GetComponent<WayPoint>();
+            if(waypoint!=null)
+                path.Add(waypoint);//fill our list
         }
     
     }

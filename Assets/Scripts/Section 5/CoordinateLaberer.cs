@@ -6,6 +6,7 @@ using System;
 using UnityEngine.PlayerLoop;
 
 [ExecuteAlways]//executes in edit mode and play mode
+[RequireComponent(typeof(TextMeshPro))]
 public class CoordinateLaberer : MonoBehaviour
 {
     TextMeshPro label;
@@ -22,6 +23,7 @@ public class CoordinateLaberer : MonoBehaviour
         label.enabled = false;
         DisplayCoordinates();
         RenameObject();
+        ColorLabel();
     }
 
     // Update is called once per frame
@@ -34,7 +36,7 @@ public class CoordinateLaberer : MonoBehaviour
             RenameObject();
         }
 
-        ColorCoords();
+        ColorLabel();
         ToggleLabels();
     }
 
@@ -49,8 +51,8 @@ public class CoordinateLaberer : MonoBehaviour
 
     private void UpdateCoordinates() 
     {
-        Coordinates.x = Mathf.RoundToInt(transform.parent.position.x / UnityEditor.EditorSnapSettings.move.x);
-        Coordinates.y = Mathf.RoundToInt(transform.parent.position.z / UnityEditor.EditorSnapSettings.move.z);
+        Coordinates.x = Mathf.RoundToInt(transform.parent.position.x / 10);
+        Coordinates.y = Mathf.RoundToInt(transform.parent.position.z / 10);
     }
 
     private void DisplayCoordinates()
@@ -66,7 +68,7 @@ public class CoordinateLaberer : MonoBehaviour
         transform.parent.name = Coordinates.ToString();
     
     }
-    private void ColorCoords()
+    private void ColorLabel()
     {
         if (!wayPoint.IsPlaceable)
         {

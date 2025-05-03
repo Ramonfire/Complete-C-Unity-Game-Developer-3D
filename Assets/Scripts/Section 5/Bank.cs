@@ -34,6 +34,15 @@ public class Bank : MonoBehaviour
         {
             ResetLevel();
         }
+        if (currentBalance > 1000) 
+        {
+            LoadaNextLevel();
+        }
+    }
+
+    private void LoadaNextLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);// should load next level
     }
 
     private void ResetLevel()

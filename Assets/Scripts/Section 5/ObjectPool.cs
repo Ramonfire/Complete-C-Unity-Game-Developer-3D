@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class ObjectPool : MonoBehaviour
 {
-    [SerializeField] float _spawnDelay = 3f;
+    [SerializeField][Range(0.1f, 20f)] float _spawnDelay = 3f;
     [SerializeField] GameObject RamPrefab;
-    [SerializeField] int poolSize=5;
+    [SerializeField][Range(0, 50)] int poolSize = 5;
     private GameObject[] pool;
 
 
@@ -16,6 +16,10 @@ public class ObjectPool : MonoBehaviour
     private void Awake()
     {
         PopulatePool();
+    }
+    void Start()
+    {
+        StartCoroutine(InstantiateEnemyRam());
     }
 
     private void PopulatePool()
@@ -30,10 +34,7 @@ public class ObjectPool : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    void Start()
-    {
-        StartCoroutine(InstantiateEnemyRam());
-    }
+   
 
     private void Update()
     {
