@@ -4,20 +4,25 @@ using UnityEngine;
 [RequireComponent(typeof(Enemy))]
 public class EnemyPathFindingMover : MonoBehaviour
 {
-    [SerializeField] List<Tile> path = new();//simplified for new List<Waypoint>()
+   
     [SerializeField][Range(0f, 5f)] float Speed = 0.5f;
     Enemy enemy;
-
-
+    List<Node> path = new();//simplified for new List<Waypoint>()
+    PathFinder pathFinder;
+    GridManager gridManager;
     private void OnEnable()
     {
-        
+        FindPath();
+        JumpToStartingTile();
+        FollowPath();
     }
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         enemy = GetComponent<Enemy>();
+        pathFinder = FindObjectOfType<PathFinder>();
+        gridManager = FindObjectOfType<GridManager>();
     }
 
     // Update is called once per frame
@@ -29,13 +34,14 @@ public class EnemyPathFindingMover : MonoBehaviour
     private void FindPath()
     {
         path.Clear();
-     
-
+        if(pathFinder!=null)
+            path = pathFinder.GetNewPath();
     }
 
     private void JumpToStartingTile()
     {
-        transform.position = path[0].transform.position;
+        if(gridManager!=null)
+            transform.position = gridManager.GetPositionFromCoords(pathFinder.StartingCoords);
     }
 
     private void FollowPath()
@@ -46,11 +52,13 @@ public class EnemyPathFindingMover : MonoBehaviour
 
     private IEnumerator MoveToNextTile()
     {
+        if (gridManager == null)
+            yield return null;
 
-        foreach (Tile waypoint in path)
+      for(int i = 0; i < path.Count;i++)
         {
             Vector3 StartPosition = transform.position;
-            Vector3 EndPosition = waypoint.transform.position;
+            Vector3 EndPosition = gridManager.GetPositionFromCoords(path[i].coordinates);
             float TravelPercent = 0f;
             transform.LookAt(EndPosition);//face where you are going
             while (TravelPercent < 1f)

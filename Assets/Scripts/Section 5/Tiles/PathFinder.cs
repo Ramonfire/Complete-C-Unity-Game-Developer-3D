@@ -5,11 +5,13 @@ using UnityEngine;
 
 public class PathFinder : MonoBehaviour
 {
-    [SerializeField] Vector2Int StartCoords;
-    [SerializeField] Vector2Int EndCoords;
+    [SerializeField] Vector2Int startingCoords;
+    public Vector2Int StartingCoords { get { return startingCoords; } }
+    [SerializeField] Vector2Int destinationCoords;
+    public Vector2Int DestinationCoords { get { return destinationCoords; } }
 
-    Node StartNode;
-    Node EndNode;
+    Node startingNode;
+    Node destinationNode;
     Node CurrentSearchNode;
 
     Queue<Node> frontier = new();
@@ -27,8 +29,10 @@ public class PathFinder : MonoBehaviour
     private void Start()
     {
 
-        StartNode = gridManager.GetNode(StartCoords);
-        EndNode = gridManager.GetNode(EndCoords);
+        startingNode = gridManager.GetNode(startingCoords);
+        destinationNode = gridManager.GetNode(destinationCoords);
+
+
         GetNewPath();
 
     }
@@ -36,7 +40,7 @@ public class PathFinder : MonoBehaviour
     public List<Node> GetNewPath()
     {
         gridManager.ResetNodes();
-        BreadthFirstSearch();
+        BrethFirstSearch();
         return BuildPath();
     }
 
@@ -64,22 +68,30 @@ public class PathFinder : MonoBehaviour
     }
 
 
-    void BreadthFirstSearch() 
+    void BrethFirstSearch() 
     {
+
+        startingNode = gridManager.GetNode(startingCoords);
+        destinationNode = gridManager.GetNode(destinationCoords);
+
+        startingNode.isValidPath = true;
+        destinationNode.isValidPath = true;
+
+
         frontier.Clear();
         reached.Clear();
 
         bool isRunning = true;
 
-        frontier.Enqueue(StartNode);
-        reached.Add(StartCoords,StartNode);
+        frontier.Enqueue(startingNode);
+        reached.Add(startingCoords,startingNode);
 
         while (frontier.Count > 0 && isRunning) 
         {
             CurrentSearchNode = frontier.Dequeue();
             CurrentSearchNode.isExplored = true;
             ExploreNeighbors();
-            if (CurrentSearchNode.coordinates == EndCoords)
+            if (CurrentSearchNode.coordinates == destinationCoords)
                 isRunning = false;  
         }
     }
@@ -88,9 +100,9 @@ public class PathFinder : MonoBehaviour
     public List<Node> BuildPath() 
     {
         List<Node> path = new();
-        Node currentNode = EndNode;
+        Node currentNode = destinationNode;
 
-        path.Add(EndNode);
+        path.Add(currentNode);
         currentNode.isPath = true;
 
         while (currentNode.connectedTo != null)
@@ -98,7 +110,7 @@ public class PathFinder : MonoBehaviour
 
             currentNode = currentNode.connectedTo;
 
-            path.Add(EndNode);
+            path.Add(currentNode);
             currentNode.isPath = true;
 
         }

@@ -74,8 +74,8 @@ public class GridManager : MonoBehaviour
         Vector3 position = new Vector3();
 
         position.x = Mathf.RoundToInt(coords.x * unityGridSize);
-        position.y = Mathf.RoundToInt(coords.y * unityGridSize);
-
+        position.z = Mathf.RoundToInt(coords.y * unityGridSize);
+        position.y = 0;
         return position;
     }
 }
