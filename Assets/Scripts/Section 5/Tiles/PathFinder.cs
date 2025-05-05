@@ -39,8 +39,13 @@ public class PathFinder : MonoBehaviour
 
     public List<Node> GetNewPath()
     {
+        return GetNewPath(startingCoords);
+    }
+
+    public List<Node> GetNewPath(Vector2Int coords)
+    {
         gridManager.ResetNodes();
-        BrethFirstSearch();
+        BreadthFirstSearch(coords);
         return BuildPath();
     }
 
@@ -68,10 +73,10 @@ public class PathFinder : MonoBehaviour
     }
 
 
-    void BrethFirstSearch() 
+    void BreadthFirstSearch(Vector2Int coords) 
     {
 
-        startingNode = gridManager.GetNode(startingCoords);
+        startingNode = gridManager.GetNode(coords);
         destinationNode = gridManager.GetNode(destinationCoords);
 
         startingNode.isValidPath = true;
@@ -84,7 +89,7 @@ public class PathFinder : MonoBehaviour
         bool isRunning = true;
 
         frontier.Enqueue(startingNode);
-        reached.Add(startingCoords,startingNode);
+        reached.Add(coords,startingNode);
 
         while (frontier.Count > 0 && isRunning) 
         {
@@ -137,5 +142,11 @@ public class PathFinder : MonoBehaviour
             }
         }
             return false;
+    }
+
+    public void NotifyReceiver() 
+    {
+        BroadcastMessage("RecalculatePath",false, SendMessageOptions.DontRequireReceiver);//send the messge and dont care wether someone receives it or no(averge UDP enjoyer)
+        
     }
 }

@@ -12,9 +12,8 @@ public class EnemyPathFindingMover : MonoBehaviour
     GridManager gridManager;
     private void OnEnable()
     {
-        FindPath();
         JumpToStartingTile();
-        FollowPath();
+        RecalculatePath(true);
     }
 
     // Start is called before the first frame update
@@ -31,11 +30,20 @@ public class EnemyPathFindingMover : MonoBehaviour
         
     }
 
-    private void FindPath()
+    private void RecalculatePath(bool resetPath)
     {
+        StopAllCoroutines();
         path.Clear();
-        if(pathFinder!=null)
-            path = pathFinder.GetNewPath();
+        Vector2Int coords = new();
+        if (resetPath)
+            coords = pathFinder.StartingCoords;
+        else
+            coords = gridManager.GetCoordsFromPosition(transform.position);
+        if (pathFinder != null)
+            path = pathFinder.GetNewPath(coords);
+
+
+        FollowPath();
     }
 
     private void JumpToStartingTile()
@@ -55,7 +63,7 @@ public class EnemyPathFindingMover : MonoBehaviour
         if (gridManager == null)
             yield return null;
 
-      for(int i = 0; i < path.Count;i++)
+      for(int i = 1; i < path.Count;i++)
         {
             Vector3 StartPosition = transform.position;
             Vector3 EndPosition = gridManager.GetPositionFromCoords(path[i].coordinates);

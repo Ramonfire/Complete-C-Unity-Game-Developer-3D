@@ -74,7 +74,11 @@ public class Tile : MonoBehaviour
         BallistaObject = BallistaPrefab.CreateBallista(BallistaPrefab,transform.position);
         isOccupied = (BallistaObject!=null);//if the object isnt null then we are occupied nd we should block this grid
         if (isOccupied)
+        {
             gridManager.BlockNode(coords);
+            pathFinder.NotifyReceiver();
+        }
+
 
     }
 
