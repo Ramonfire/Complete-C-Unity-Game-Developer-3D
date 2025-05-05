@@ -36,7 +36,7 @@ public class PathFinder : MonoBehaviour
     public List<Node> GetNewPath()
     {
         gridManager.ResetNodes();
-        BrethFirstSearch();
+        BreadthFirstSearch();
         return BuildPath();
     }
 
@@ -64,7 +64,7 @@ public class PathFinder : MonoBehaviour
     }
 
 
-    void BrethFirstSearch() 
+    void BreadthFirstSearch() 
     {
         frontier.Clear();
         reached.Clear();
