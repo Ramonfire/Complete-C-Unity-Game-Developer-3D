@@ -56,7 +56,7 @@ public class PathFinder : MonoBehaviour
         {
             if(neighbor.isValidPath && !reached.ContainsKey(neighbor.coordinates)) 
             {
-                neighbor.ConnectedTo=CurrentSearchNode;
+                neighbor.connectedTo=CurrentSearchNode;
                 reached.Add(neighbor.coordinates,neighbor);
                 frontier.Enqueue(neighbor);  
             }
@@ -93,10 +93,10 @@ public class PathFinder : MonoBehaviour
         path.Add(EndNode);
         currentNode.isPath = true;
 
-        while (currentNode.ConnectedTo != null)
+        while (currentNode.connectedTo != null)
         {
 
-            currentNode = currentNode.ConnectedTo;
+            currentNode = currentNode.connectedTo;
 
             path.Add(EndNode);
             currentNode.isPath = true;

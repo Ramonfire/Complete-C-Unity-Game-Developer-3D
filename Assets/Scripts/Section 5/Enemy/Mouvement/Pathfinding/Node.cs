@@ -9,7 +9,7 @@ public class Node
     public bool isExplored=false;
     public bool isPath=false;
 
-    public Node ConnectedTo= null;
+    public Node connectedTo= null;
 
 
     public Node() { }

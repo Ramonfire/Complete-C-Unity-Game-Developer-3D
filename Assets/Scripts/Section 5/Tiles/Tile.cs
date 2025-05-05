@@ -51,12 +51,11 @@ public class Tile : MonoBehaviour
         }
         else if (isPlaceable && !isOccupied && Input.GetMouseButtonDown(0)) // if i can place objects into an unoccupied tile and a click action is triggered
         {
-            if (gridManager != null && pathFinder.WillBlockPath(coords))
+            if (gridManager != null && pathFinder!=null)
             { 
                 if(gridManager.GetNode(coords).isValidPath && !pathFinder.WillBlockPath(coords)) 
                 {
                     PlaceBallista();
-                    gridManager.BlockNode(coords);
                 }
                     
             }
@@ -73,7 +72,10 @@ public class Tile : MonoBehaviour
     private void PlaceBallista()
     {
         BallistaObject = BallistaPrefab.CreateBallista(BallistaPrefab,transform.position);
-        isOccupied = BallistaObject!=null;//if the object isnt null then we are occupied
+        isOccupied = (BallistaObject!=null);//if the object isnt null then we are occupied nd we should block this grid
+        if (isOccupied)
+            gridManager.BlockNode(coords);
+
     }
 
   

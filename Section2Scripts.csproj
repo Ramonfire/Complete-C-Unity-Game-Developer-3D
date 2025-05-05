@@ -56,6 +56,8 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Section 5\Enemy\Mouvement\Pathfinding\Node.cs" />
+    <Compile Include="Assets\Scripts\Section 5\Tiles\Tile.cs" />
     <Compile Include="Assets\Scripts\Section 5\Enemy\Enemy.cs" />
     <Compile Include="Assets\Scripts\Section 5\Bank and score\Bank.cs" />
     <Compile Include="Assets\Scripts\Section 5\Tiles\CoordinateLaberer.cs" />
@@ -65,13 +67,16 @@
     <Compile Include="Assets\Scripts\Section 3\QuitApplication.cs" />
     <Compile Include="Assets\Scripts\Section 2\Spinner.cs" />
     <Compile Include="Assets\Scripts\Section 5\Enemy\Mouvement\EnemyMover.cs" />
+    <Compile Include="Assets\Scripts\Section 5\Tiles\CoordinateLabererPathFinding.cs" />
     <Compile Include="Assets\Scripts\Section 5\Bank and score\DisplayScore.cs" />
     <Compile Include="Assets\Scripts\Section 3\Oscillator.cs" />
     <Compile Include="Assets\Scripts\Section 5\Tower\Tower.cs" />
     <Compile Include="Assets\Scripts\Section 2\ObjectHit.cs" />
     <Compile Include="Assets\Scripts\Section 4\PlayerControls.cs" />
+    <Compile Include="Assets\Scripts\Section 5\Tiles\PathFinder.cs" />
     <Compile Include="Assets\Scripts\Section 5\Enemy\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\Section 2\LoadScene.cs" />
+    <Compile Include="Assets\Scripts\Section 5\Enemy\Mouvement\EnemyPathFindingMover.cs" />
     <Compile Include="Assets\Scripts\Section 2\Mover.cs" />
     <Compile Include="Assets\Scripts\Section 4\EnemySpaceShip.cs" />
     <Compile Include="Assets\Scripts\Section 4\SpaceShipCollisionHandler.cs" />
@@ -79,13 +84,8 @@
     <Compile Include="Assets\Scripts\Section 5\Tower\TargetTracker.cs" />
     <Compile Include="Assets\Scripts\Section 3\RocketMovement.cs" />
     <Compile Include="Assets\Scripts\Section 3\RocketCollision.cs" />
-    <Compile Include="Assets\Scripts\Section 4\MusicPlayer.cs" />
-    <Compile Include="Assets\Scripts\Section 5\Enemy\Mouvement\EnemyPathFindingMover.cs" />
-    <Compile Include="Assets\Scripts\Section 5\Enemy\Mouvement\Pathfinding\Node.cs" />
     <Compile Include="Assets\Scripts\Section 5\Enemy\Mouvement\Pathfinding\GridManager.cs" />
-    <Compile Include="Assets\Scripts\Section 5\Tiles\CoordinateLabererPathFinding.cs" />
-    <Compile Include="Assets\Scripts\Section 5\Tiles\PathFinder.cs" />
-    <Compile Include="Assets\Scripts\Section 5\Tiles\Tile.cs" />
+    <Compile Include="Assets\Scripts\Section 4\MusicPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\SectionsScripts.asmdef" />

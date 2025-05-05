@@ -51,7 +51,7 @@ public class GridManager : MonoBehaviour
     {
         foreach (KeyValuePair<Vector2Int,Node> entry in grid)
         {
-            entry.Value.ConnectedTo = null;
+            entry.Value.connectedTo = null;
             entry.Value.isExplored = false;
             entry.Value.isPath = false;
         }
