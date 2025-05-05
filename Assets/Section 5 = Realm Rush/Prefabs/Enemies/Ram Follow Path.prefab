@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 5581891220677200332}
   - component: {fileID: 321418754}
   m_Layer: 0
-  m_Name: Ram
+  m_Name: Ram Follow Path
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

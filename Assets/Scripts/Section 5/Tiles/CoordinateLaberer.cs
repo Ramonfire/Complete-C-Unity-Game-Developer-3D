@@ -11,7 +11,7 @@ public class CoordinateLaberer : MonoBehaviour
 {
     TextMeshPro label;
     Vector2Int Coordinates = new Vector2Int();
-    WayPoint wayPoint;
+    Tile wayPoint;
     [SerializeField] Color defaultColor = Color.white;
     [SerializeField] Color occupiedColor = Color.blue;
     [SerializeField] Color blockedColor = Color.red;
@@ -19,7 +19,7 @@ public class CoordinateLaberer : MonoBehaviour
     void Awake()
     {
         label = GetComponent<TextMeshPro>();
-        wayPoint = GetComponentInParent<WayPoint>();
+        wayPoint = GetComponentInParent<Tile>();
         label.enabled = false;
         DisplayCoordinates();
         RenameObject();
@@ -31,7 +31,9 @@ public class CoordinateLaberer : MonoBehaviour
     {
 
         if (!Application.isPlaying) 
-        { 
+        {
+            if (!label.enabled)
+                label.enabled = true;
             DisplayCoordinates();
             RenameObject();
         }

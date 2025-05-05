@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7811488543995808988}
   - component: {fileID: 7811488543995808989}
+  - component: {fileID: 296299657}
   m_Layer: 0
-  m_Name: ObjectPool
+  m_Name: ObjectPool autoPath
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,4 +46,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _spawnDelay: 3
-  RamPrefab: {fileID: 5040643765344069697, guid: b940df629b09f434dbb9fd487257db6c, type: 3}
+  RamPrefab: {fileID: 1028583232760712222, guid: 7553a9e57a5076646becc5de7955c976, type: 3}
+  poolSize: 10
+--- !u!114 &296299657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7811488543995808991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9af40cc0b4910d3478ea251db3e20772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentSearchNode:
+    coordinates: {x: 0, y: 0}
+    isValidPath: 0
+    isExplored: 0
+    isPath: 0

@@ -13,11 +13,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2923809282590376703, guid: 83ca4c24902474b449e3425f55f7a258, type: 3}
       propertyPath: m_fontColor.b
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2923809282590376703, guid: 83ca4c24902474b449e3425f55f7a258, type: 3}
       propertyPath: m_fontColor.g
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2923809283237748757, guid: 83ca4c24902474b449e3425f55f7a258, type: 3}
       propertyPath: m_RootOrder
@@ -71,6 +71,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: -2432090755550338912, guid: a847eae99d42cdf49b01d8ca9f52e595, type: 3}
+    - target: {fileID: 6529444318766607949, guid: 83ca4c24902474b449e3425f55f7a258, type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6529444318766607949, guid: 83ca4c24902474b449e3425f55f7a258, type: 3}
+      propertyPath: BallistaPrefab
+      value: 
+      objectReference: {fileID: 5760224458358922269, guid: 8a965e088bae16643aab3d07ccfd5e2e, type: 3}
     - target: {fileID: 8991318324819598330, guid: 83ca4c24902474b449e3425f55f7a258, type: 3}
       propertyPath: isPlaceable
       value: 0

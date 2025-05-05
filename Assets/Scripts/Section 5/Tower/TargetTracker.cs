@@ -29,6 +29,8 @@ public class TargetTracker : MonoBehaviour
             float targetDitance = Vector3.Distance(transform.position, target.position);
             if (targetDitance < TrackingRange)
                 return;
+            else
+                target = null;
         }
 
         Enemy[] enemies = FindObjectsOfType<Enemy>();

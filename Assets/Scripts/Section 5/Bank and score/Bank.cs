@@ -47,6 +47,7 @@ public class Bank : MonoBehaviour
 
     private void ResetLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if(SceneManager.GetActiveScene().buildIndex + 1<SceneManager.sceneCount)
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
     }
 }

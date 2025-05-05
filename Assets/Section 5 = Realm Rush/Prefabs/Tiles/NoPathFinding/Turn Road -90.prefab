@@ -31,6 +31,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 2764705755803296231, guid: fe3bab9163511f147b9cf9048f187a0f, type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6075495752287956912, guid: fe3bab9163511f147b9cf9048f187a0f, type: 3}
       propertyPath: m_Name
       value: Turn Road -90
