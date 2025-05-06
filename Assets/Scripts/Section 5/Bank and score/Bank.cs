@@ -18,7 +18,14 @@ public class Bank : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (currentBalance < 0)
+        {
+            ResetLevel();
+        }
+        if (currentBalance > 1000)
+        {
+            LoadaNextLevel();
+        }
     }
 
     public void Deposit(int inBalance)
@@ -29,15 +36,6 @@ public class Bank : MonoBehaviour
     public void Withdraw(int inBalance)
     {
         currentBalance -= Mathf.Abs(inBalance);
-
-        if (currentBalance < 0) 
-        {
-            ResetLevel();
-        }
-        if (currentBalance > 5000) 
-        {
-            LoadaNextLevel();
-        }
     }
 
     private void LoadaNextLevel()
