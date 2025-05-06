@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Section 5 = Realm Rush/Scenes/First Scene.unity
-    guid: 71c00de37f78daa45aea636e5c74f663
-  - enabled: 1
-    path: Assets/Section 5 = Realm Rush/Scenes/SecondScene.unity
-    guid: 5d5cd3a8ef3e2784eb1cc4e264ce1e2f
+    path: Assets/Section 6 = Zombie Runner/Scene/First Scene.unity
+    guid: 9d6ffdc3ebb4f28418f5e5495b7172d0
   m_configObjects: {}

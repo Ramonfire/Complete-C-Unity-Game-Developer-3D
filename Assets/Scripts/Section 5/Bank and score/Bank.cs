@@ -46,8 +46,8 @@ public class Bank : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);// should load next level if exists
         else 
         {
-        //do smtg is no level is found
-        
+            //do smtg is no level is found
+            Application.Quit();
         }
     }
 
