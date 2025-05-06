@@ -75,8 +75,12 @@ public class Tile : MonoBehaviour
         isOccupied = (BallistaObject!=null);//if the object isnt null then we are occupied nd we should block this grid
         if (isOccupied)
         {
-            gridManager.BlockNode(coords);
-            pathFinder.NotifyReceiver();
+            if(gridManager!=null && pathFinder != null)
+            {
+                gridManager.BlockNode(coords);
+                pathFinder.NotifyReceiver();
+            }
+             
         }
 
 

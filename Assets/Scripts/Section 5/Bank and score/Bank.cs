@@ -22,7 +22,7 @@ public class Bank : MonoBehaviour
         {
             ResetLevel();
         }
-        if (currentBalance > 1000)
+        if (currentBalance >= 1000)
         {
             LoadaNextLevel();
         }
@@ -40,7 +40,7 @@ public class Bank : MonoBehaviour
 
     private void LoadaNextLevel()
     {
-        if (SceneManager.GetActiveScene().buildIndex + 1 < SceneManager.sceneCount)
+        if (SceneManager.GetActiveScene().buildIndex + 1 < SceneManager.sceneCountInBuildSettings)
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);// should load next level if exists
         else 
         {
