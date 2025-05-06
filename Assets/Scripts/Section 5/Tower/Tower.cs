@@ -8,10 +8,36 @@ public class Tower : MonoBehaviour
     
     [SerializeField] int cost = 25;
     [SerializeField] int UpgradeCost = 50;
+    [SerializeField] float buildDelay = 1f;
     // Start is called before the first frame update
     void Start()
     {
-      
+        StartCoroutine(Build());
+    }
+
+    private IEnumerator Build()
+    {
+        //Disbale all gameobjects 
+        foreach (Transform child in transform)
+        {
+            child.gameObject.SetActive(false);
+            foreach (Transform grandChild in child)
+            {
+                grandChild.gameObject.SetActive(false);
+            }
+        }
+
+        //  activate the gameobjects with a delay
+        foreach (Transform child in transform) 
+        {
+            child.gameObject.SetActive(true);
+            yield return new WaitForSeconds(buildDelay);
+
+            foreach (Transform grandChild in child)
+            {
+                grandChild.gameObject.SetActive(true);
+            }
+        }
     }
 
     // Update is called once per frame

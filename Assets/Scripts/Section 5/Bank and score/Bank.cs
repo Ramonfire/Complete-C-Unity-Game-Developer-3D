@@ -34,7 +34,7 @@ public class Bank : MonoBehaviour
         {
             ResetLevel();
         }
-        if (currentBalance > 1000) 
+        if (currentBalance > 5000) 
         {
             LoadaNextLevel();
         }
@@ -42,12 +42,17 @@ public class Bank : MonoBehaviour
 
     private void LoadaNextLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);// should load next level
+        if (SceneManager.GetActiveScene().buildIndex + 1 < SceneManager.sceneCount)
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);// should load next level if exists
+        else 
+        {
+        //do smtg is no level is found
+        
+        }
     }
 
     private void ResetLevel()
     {
-        if(SceneManager.GetActiveScene().buildIndex + 1<SceneManager.sceneCount)
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

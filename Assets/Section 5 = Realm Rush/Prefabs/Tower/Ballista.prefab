@@ -65,6 +65,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cost: 25
   UpgradeCost: 50
+  buildDelay: 1
 --- !u!1 &6131056645070147807
 GameObject:
   m_ObjectHideFlags: 0
