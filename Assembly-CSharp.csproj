@@ -56,15 +56,15 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\StarterAssets\FirstPersonController\Scripts\FirstPersonController.cs" />
-    <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
-    <Compile Include="Assets\StarterAssets\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
-    <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
-    <Compile Include="Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
-    <Compile Include="Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
-    <Compile Include="Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
-    <Compile Include="Assets\StarterAssets\FirstPersonController\Scripts\BasicRigidBodyPush.cs" />
+    <Compile Include="Assets\Section 6 = Zombie Runner\Prefabs\First Person Controller\StarterAssets\FirstPersonController\Scripts\FirstPersonController.cs" />
+    <Compile Include="Assets\Section 6 = Zombie Runner\Prefabs\First Person Controller\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
+    <Compile Include="Assets\Section 6 = Zombie Runner\Prefabs\First Person Controller\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
+    <Compile Include="Assets\Section 6 = Zombie Runner\Prefabs\First Person Controller\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
+    <Compile Include="Assets\Section 6 = Zombie Runner\Prefabs\First Person Controller\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
+    <Compile Include="Assets\Section 6 = Zombie Runner\Prefabs\First Person Controller\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
+    <Compile Include="Assets\Section 6 = Zombie Runner\Prefabs\First Person Controller\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
+    <Compile Include="Assets\Section 6 = Zombie Runner\Prefabs\First Person Controller\StarterAssets\FirstPersonController\Scripts\BasicRigidBodyPush.cs" />
+    <Compile Include="Assets\Section 6 = Zombie Runner\Prefabs\First Person Controller\StarterAssets\TutorialInfo\Scripts\Readme.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -79,7 +79,7 @@
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\StarterAssets\license.txt" />
+    <None Include="Assets\Section 6 = Zombie Runner\Prefabs\First Person Controller\StarterAssets\license.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
