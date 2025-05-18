@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\Section 5\Enemy\Enemy.cs" />
     <Compile Include="Assets\Scripts\Section 2\EnableGravity.cs" />
     <Compile Include="Assets\Scripts\Section 5\Enemy\ObjectPool.cs" />
+    <Compile Include="Assets\Scripts\Section 6\Enemy\EnemyHp.cs" />
     <Compile Include="Assets\Scripts\Section 3\QuitApplication.cs" />
     <Compile Include="Assets\Scripts\Section 2\Spinner.cs" />
     <Compile Include="Assets\Scripts\Section 3\Oscillator.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="Assets\Scripts\Section 5\Bank and score\Bank.cs" />
     <Compile Include="Assets\Scripts\Section 5\Tiles\CoordinateLaberer.cs" />
     <Compile Include="Assets\Scripts\Section 4\SpaceShipScore.cs" />
+    <Compile Include="Assets\Scripts\Section 6\Weapon\Weapon.cs" />
     <Compile Include="Assets\Scripts\Section 5\Enemy\Mouvement\EnemyMover.cs" />
     <Compile Include="Assets\Scripts\Section 5\Tiles\CoordinateLabererPathFinding.cs" />
     <Compile Include="Assets\Scripts\Section 5\Bank and score\DisplayScore.cs" />
@@ -87,8 +89,6 @@
     <Compile Include="Assets\Scripts\Section 4\SpaceShipCollisionHandler.cs" />
     <Compile Include="Assets\Scripts\Section 3\RocketMovement.cs" />
     <Compile Include="Assets\Scripts\Section 3\RocketCollision.cs" />
-    <Compile Include="Assets\Scripts\Section 6\Weapon\Weapon.cs" />
-    <Compile Include="Assets\Scripts\Section 6\Enemy\EnemyHp.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\SectionsScripts.asmdef" />
