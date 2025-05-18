@@ -11,6 +11,7 @@ public class Weapon : MonoBehaviour
     [SerializeField] float fireRate = 1f;
    [SerializeField] LayerMask layerMask;
     [SerializeField] int Damage = 5;
+    [SerializeField] ParticleSystem muzzleFlash;
     float lastShot;
     // Start is called before the first frame update
     void Start()
@@ -31,16 +32,27 @@ public class Weapon : MonoBehaviour
     private void Shoot()
     {
         float ShootDelta = (Time.time - lastShot);
-        if (ShootDelta < 1/fireRate)
+        if (ShootDelta < 1 / fireRate)
             return;
+        MuzzleFlash();
+        Fire();
+    }
 
+    private void MuzzleFlash()
+    {
+        if (muzzleFlash)
+            muzzleFlash.Play();
+    }
+
+    private void Fire()
+    {
         RaycastHit hit;
-       bool didHit= Physics.Raycast(FirstPersonCamera.transform.position, FirstPersonCamera.transform.forward,out hit,maxDistance,layerMask);
+        bool didHit = Physics.Raycast(FirstPersonCamera.transform.position, FirstPersonCamera.transform.forward, out hit, maxDistance, layerMask);
 
         if (didHit)
         {
             EnemyHp target = hit.transform.GetComponent<EnemyHp>();
-            if(target!=null)
+            if (target != null)
                 target.ReceiveDamage(Damage);
         }
         lastShot = Time.time;

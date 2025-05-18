@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 133
+  controlID: 126
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 87
+  controlID: 27
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -230,7 +230,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 139
+  controlID: 127
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -564,9 +564,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.688664, y: -4.85002, z: 28.094608}
+    m_Target: {x: 37.779102, y: -4.367827, z: 2.8128192}
     speed: 2
-    m_Value: {x: 1.688664, y: -4.85002, z: 28.094608}
+    m_Value: {x: 37.779102, y: -4.367827, z: 2.8128192}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -613,9 +613,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.13311915, y: -0.16888167, z: 0.020990174, w: 0.975315}
+    m_Target: {x: 0.07982492, y: 0.6633051, z: -0.07494546, w: 0.738887}
     speed: 2
-    m_Value: {x: 0.1332577, y: -0.16905744, z: 0.021012021, w: 0.9763301}
+    m_Value: {x: 0.07990821, y: 0.6639972, z: -0.07502366, w: 0.73965794}
   m_Size:
     m_Target: 17.242052
     speed: 2
@@ -1271,7 +1271,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -1932
+  m_LastSelectedObjectID: -2090
 --- !u!114 &24
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1303,23 +1303,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 74f8ffff
-      m_LastClickedID: -1932
-      m_ExpandedIDs: d8faffff986f0000
+      m_SelectedIDs: 44f8ffff
+      m_LastClickedID: -1980
+      m_ExpandedIDs: 48f8ffff52f8ffff74f8ffffd8faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Environment_Prefab
-        m_OriginalName: Environment_Prefab
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -1322
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 10}
       m_SearchString: 
@@ -1370,22 +1370,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Section 6 = Zombie Runner/Prefabs/Weapon/VFX
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 49
   m_LastFolders:
-  - Assets
+  - Assets/Section 6 = Zombie Runner/Prefabs/Weapon/VFX
   m_LastFoldersGridSize: 49
   m_LastProjectPath: C:\Users\PC\OneDrive\Documents\GitHub\Complete-C-Unity-Game-Developer-3D
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 24740000
-    m_LastClickedID: 29732
-    m_ExpandedIDs: 000000002474000026740000287400002a7400002c7400002e74000030740000327400003474000036740000387400003a7400003c7400003e74000040740000427400006c74000000ca9a3b
+    scrollPos: {x: 0, y: 103}
+    m_SelectedIDs: 14760000
+    m_LastClickedID: 30228
+    m_ExpandedIDs: 000000002474000026740000287400002a7400002c7400002e74000030740000327400003474000036740000387400003a7400003c7400003e740000407400004474000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1413,7 +1413,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002474000026740000287400002a7400002c7400002e74000030740000327400003474000036740000387400003a7400003c7400003e7400004074000042740000
+    m_ExpandedIDs: 000000002474000026740000287400002a7400002c7400002e74000030740000327400003474000036740000387400003a7400003c7400003e740000407400004274000044740000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

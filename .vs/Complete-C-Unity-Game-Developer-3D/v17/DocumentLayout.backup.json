@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E35D4AC-E371-C1C8-3665-0C173B6A4A4D}|Assembly-CSharp.csproj|c:\\users\\pc\\onedrive\\documents\\github\\complete-c-unity-game-developer-3d\\assets\\section 6 = zombie runner\\prefabs\\first person controller\\starterassets\\firstpersoncontroller\\scripts\\firstpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E35D4AC-E371-C1C8-3665-0C173B6A4A4D}|Assembly-CSharp.csproj|solutionrelative:assets\\section 6 = zombie runner\\prefabs\\first person controller\\starterassets\\firstpersoncontroller\\scripts\\firstpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E35D4AC-E371-C1C8-3665-0C173B6A4A4D}|Assembly-CSharp.csproj|c:\\users\\pc\\onedrive\\documents\\github\\complete-c-unity-game-developer-3d\\assets\\section 6 = zombie runner\\prefabs\\first person controller\\starterassets\\inputsystem\\starterassetsinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E35D4AC-E371-C1C8-3665-0C173B6A4A4D}|Assembly-CSharp.csproj|solutionrelative:assets\\section 6 = zombie runner\\prefabs\\first person controller\\starterassets\\inputsystem\\starterassetsinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\assets\\scripts\\section 6\\enemy\\enemyhp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|solutionrelative:assets\\scripts\\section 6\\enemy\\enemyhp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|c:\\users\\pc\\onedrive\\documents\\github\\complete-c-unity-game-developer-3d\\assets\\scripts\\section 6\\weapon\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\assets\\scripts\\section 6\\weapon\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|solutionrelative:assets\\scripts\\section 6\\weapon\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|c:\\users\\pc\\onedrive\\documents\\github\\complete-c-unity-game-developer-3d\\assets\\scripts\\section 6\\enemy\\enemyhp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|solutionrelative:assets\\scripts\\section 6\\enemy\\enemyhp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\assets\\scripts\\section 6\\enemy\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,32 +31,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StarterAssetsInputs.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Section 6 = Zombie Runner\\Prefabs\\First Person Controller\\StarterAssets\\InputSystem\\StarterAssetsInputs.cs",
-              "RelativeDocumentMoniker": "Assets\\Section 6 = Zombie Runner\\Prefabs\\First Person Controller\\StarterAssets\\InputSystem\\StarterAssetsInputs.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Section 6 = Zombie Runner\\Prefabs\\First Person Controller\\StarterAssets\\InputSystem\\StarterAssetsInputs.cs",
-              "RelativeToolTip": "Assets\\Section 6 = Zombie Runner\\Prefabs\\First Person Controller\\StarterAssets\\InputSystem\\StarterAssetsInputs.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T16:25:45.326Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FirstPersonController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Section 6 = Zombie Runner\\Prefabs\\First Person Controller\\StarterAssets\\FirstPersonController\\Scripts\\FirstPersonController.cs",
-              "RelativeDocumentMoniker": "Assets\\Section 6 = Zombie Runner\\Prefabs\\First Person Controller\\StarterAssets\\FirstPersonController\\Scripts\\FirstPersonController.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Section 6 = Zombie Runner\\Prefabs\\First Person Controller\\StarterAssets\\FirstPersonController\\Scripts\\FirstPersonController.cs",
-              "RelativeToolTip": "Assets\\Section 6 = Zombie Runner\\Prefabs\\First Person Controller\\StarterAssets\\FirstPersonController\\Scripts\\FirstPersonController.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAawOUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T16:12:15.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "EnemyHp.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\Section 6\\Enemy\\EnemyHp.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Section 6\\Enemy\\EnemyHp.cs",
@@ -77,20 +43,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Weapon.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\Section 6\\Weapon\\Weapon.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Section 6\\Weapon\\Weapon.cs",
               "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\Section 6\\Weapon\\Weapon.cs",
               "RelativeToolTip": "Assets\\Scripts\\Section 6\\Weapon\\Weapon.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCsAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T23:32:40.184Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "EnemyAi.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\Section 6\\Enemy\\EnemyAi.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Section 6\\Enemy\\EnemyAi.cs",
