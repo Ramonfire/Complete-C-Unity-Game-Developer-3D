@@ -8,6 +8,7 @@ public class EnemyAi : MonoBehaviour
     [SerializeField] Transform player;
     [SerializeField] float range = 5f;
     bool isProvoked;
+ 
     // Start is called before the first frame update
     void Awake()
     {
@@ -60,4 +61,5 @@ public class EnemyAi : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, range);
     }
+    public void Provoke() { isProvoked = true; }
 }

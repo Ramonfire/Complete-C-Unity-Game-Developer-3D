@@ -12,6 +12,7 @@ TagManager:
   - Laser
   - Scorer
   - Path
+  - CinemachineTarget
   layers:
   - Default
   - TransparentFX
@@ -21,9 +22,9 @@ TagManager:
   - UI
   - Post Processing
   - Tile
-  - 
-  - 
-  - 
+  - World
+  - Enemy
+  - Object
   - 
   - 
   - 
