@@ -12,6 +12,8 @@ public class Weapon : MonoBehaviour
    [SerializeField] LayerMask layerMask;
     [SerializeField] int Damage = 5;
     [SerializeField] ParticleSystem muzzleFlash;
+    [SerializeField] ParticleSystem enemyHitEffect;
+    [SerializeField] ParticleSystem worldHitEffect;
     float lastShot;
     // Start is called before the first frame update
     void Start()
@@ -51,10 +53,27 @@ public class Weapon : MonoBehaviour
 
         if (didHit)
         {
-            EnemyHp target = hit.transform.GetComponent<EnemyHp>();
-            if (target != null)
-                target.ReceiveDamage(Damage);
+            RayHitSomething(hit);
+
         }
         lastShot = Time.time;
+    }
+
+    private void RayHitSomething(RaycastHit hit)
+    {
+        EnemyHp target = hit.transform.GetComponent<EnemyHp>();
+        if (target != null)
+        {
+            target.ReceiveDamage(Damage);
+            CreateEffect(hit, enemyHitEffect);
+        }
+        else
+            CreateEffect(hit, worldHitEffect);
+    }
+
+    private void CreateEffect(RaycastHit hit, ParticleSystem enemyHitEffect)
+    {
+        ParticleSystem test= Instantiate(enemyHitEffect,hit.point,Quaternion.LookRotation(hit.normal));
+
     }
 }

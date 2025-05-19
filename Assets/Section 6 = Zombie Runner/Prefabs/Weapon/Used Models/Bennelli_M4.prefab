@@ -189,7 +189,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1792
   Damage: 5
-  muzzleFlash: {fileID: 0}
+  muzzleFlash: {fileID: 4459206046825995335, guid: 06d26a53086fa5b4b884c198ae905d1b, type: 3}
+  enemyHitEffect: {fileID: 2872338660087705858, guid: 063d4a6951ebb16428e63f08347b1470, type: 3}
+  worldHitEffect: {fileID: 2872338660087705858, guid: 9ad56904c1e90a242a6df3be0067e4bb, type: 3}
 --- !u!1 &7276251626194376543
 GameObject:
   m_ObjectHideFlags: 0

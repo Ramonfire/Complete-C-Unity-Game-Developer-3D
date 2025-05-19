@@ -561,6 +561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AK74
       objectReference: {fileID: 0}
+    - target: {fileID: 8241671850947186819, guid: 5e166b4c0fa1c3147839b8e58af12442, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8241671850947284131, guid: 5e166b4c0fa1c3147839b8e58af12442, type: 3}
       propertyPath: m_RootOrder
       value: 0
