@@ -23,7 +23,7 @@ public class EnemyAi : MonoBehaviour
         {
             if (isProvoked)
                 EngageThePlayer();
-            else if (Vector3.Distance(player.position, transform.position) <= 20)
+            if (Vector3.Distance(player.position, transform.position) <= 20)
             {
                 isProvoked = true;
             }
@@ -48,11 +48,14 @@ public class EnemyAi : MonoBehaviour
 
     private void AttackPlayer()
     {
-        Debug.Log("hit player");
+        GetComponent<Animator>().SetBool("attack", false);
+        GetComponent<Animator>().SetBool("attack",true);
     }
 
     private void HeadTowardsThePlayer(Vector3 playerPos)
     {
+        GetComponent<Animator>().SetBool("attack", false);
+        GetComponent<Animator>().SetTrigger("move");
         navAgent.SetDestination(playerPos);
     }
 
