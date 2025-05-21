@@ -6,9 +6,10 @@ public class EnemyAi : MonoBehaviour
 {
     NavMeshAgent navAgent;
     [SerializeField] Transform player;
-    [SerializeField] float range = 5f;
+    [SerializeField] float range = 10f;
     bool isProvoked;
- 
+    [SerializeField] float lookSpeed = 5f;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -23,7 +24,7 @@ public class EnemyAi : MonoBehaviour
         {
             if (isProvoked)
                 EngageThePlayer();
-            if (Vector3.Distance(player.position, transform.position) <= 20)
+            if (Vector3.Distance(player.position, transform.position) <= range)
             {
                 isProvoked = true;
             }
@@ -36,6 +37,7 @@ public class EnemyAi : MonoBehaviour
     private void EngageThePlayer()
     {
         //if we arent close enough to the enemy then track him. else attack
+        FaceTarget();
         if (Vector3.Distance(player.position, transform.position) >= navAgent.stoppingDistance ) 
         {
             HeadTowardsThePlayer(player.position);
@@ -48,7 +50,6 @@ public class EnemyAi : MonoBehaviour
 
     private void AttackPlayer()
     {
-        GetComponent<Animator>().SetBool("attack", false);
         GetComponent<Animator>().SetBool("attack",true);
     }
 
@@ -58,6 +59,14 @@ public class EnemyAi : MonoBehaviour
         GetComponent<Animator>().SetTrigger("move");
         navAgent.SetDestination(playerPos);
     }
+
+    private void FaceTarget() 
+    {
+        Vector3 direction = (player.position - transform.position).normalized;
+        Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
+        transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime*lookSpeed);
+    }
+
 
     private void OnDrawGizmosSelected()
     {

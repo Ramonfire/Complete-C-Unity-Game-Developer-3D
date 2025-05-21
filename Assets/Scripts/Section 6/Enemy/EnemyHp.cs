@@ -35,7 +35,8 @@ public class EnemyHp : MonoBehaviour
 
     public void ReceiveDamage(int inDamage)
     {
-        gameObject.GetComponent<EnemyAi>().Provoke();
+        BroadcastMessage("Provoke");
+      //  gameObject.GetComponent<EnemyAi>().Provoke();
         currentHp -= inDamage;
     }
 }

@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyAttack : MonoBehaviour
 {
     [SerializeField] Transform player;
-    [SerializeField] float damage = 40f;
+    [SerializeField] int damage = 40;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +17,6 @@ public class EnemyAttack : MonoBehaviour
         if (player == null)
             return;
 
-        Debug.Log("Attacking the player");
+        player.GetComponent<PlayerHealth>().DamagePlayer(damage);
     }
 }
