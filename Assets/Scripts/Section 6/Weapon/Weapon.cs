@@ -14,11 +14,13 @@ public class Weapon : MonoBehaviour
     [SerializeField] ParticleSystem muzzleFlash;
     [SerializeField] ParticleSystem enemyHitEffect;
     [SerializeField] ParticleSystem worldHitEffect;
+    [SerializeField] Ammo ammoSlot;
     float lastShot;
     // Start is called before the first frame update
     void Start()
     {
         lastShot = Time.time;
+        ammoSlot = GetComponent<Ammo>();
     }
 
     // Update is called once per frame
@@ -27,7 +29,8 @@ public class Weapon : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Mouse0))
         {
-            Shoot();
+            if(ammoSlot.GetAmmoCount()>0)
+                Shoot();
         }
     }
 
@@ -42,12 +45,13 @@ public class Weapon : MonoBehaviour
 
     private void MuzzleFlash()
     {
-        if (muzzleFlash)
+        if (muzzleFlash!=null)
             muzzleFlash.Play();
     }
 
     private void Fire()
     {
+        ammoSlot.ReduceAmmo();
         RaycastHit hit;
         bool didHit = Physics.Raycast(FirstPersonCamera.transform.position, FirstPersonCamera.transform.forward, out hit, maxDistance, layerMask);
 

@@ -193,6 +193,7 @@ MonoBehaviour:
   muzzleFlash: {fileID: 4459206046825995335, guid: 06d26a53086fa5b4b884c198ae905d1b, type: 3}
   enemyHitEffect: {fileID: 2872338660087705858, guid: 063d4a6951ebb16428e63f08347b1470, type: 3}
   worldHitEffect: {fileID: 2872338660087705858, guid: 9ad56904c1e90a242a6df3be0067e4bb, type: 3}
+  ammoSlot: {fileID: 0}
 --- !u!1 &8241671850947186821
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,7 +385,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4528347468282919282, guid: 06d26a53086fa5b4b884c198ae905d1b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.512
+      value: -0.457
       objectReference: {fileID: 0}
     - target: {fileID: 4528347468282919282, guid: 06d26a53086fa5b4b884c198ae905d1b, type: 3}
       propertyPath: m_LocalRotation.w

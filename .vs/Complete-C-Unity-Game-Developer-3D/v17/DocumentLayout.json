@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\assets\\scripts\\section 6\\weapon\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|solutionrelative:assets\\scripts\\section 6\\weapon\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|c:\\users\\pc\\onedrive\\documents\\github\\complete-c-unity-game-developer-3d\\assets\\scripts\\section 6\\weapon\\ammo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|solutionrelative:assets\\scripts\\section 6\\weapon\\ammo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\assets\\scripts\\section 6\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|solutionrelative:assets\\scripts\\section 6\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\assets\\scripts\\section 6\\enemy\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|solutionrelative:assets\\scripts\\section 6\\enemy\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +23,8 @@
       "RelativeMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|solutionrelative:assets\\scripts\\section 6\\enemy\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|c:\\users\\pc\\onedrive\\documents\\github\\complete-c-unity-game-developer-3d\\assets\\scripts\\section 6\\weapon\\weaponads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|solutionrelative:assets\\scripts\\section 6\\weapon\\weaponads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\assets\\scripts\\section 6\\enemy\\enemyhp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|solutionrelative:assets\\scripts\\section 6\\enemy\\enemyhp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\assets\\scripts\\section 6\\weapon\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|solutionrelative:assets\\scripts\\section 6\\weapon\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\assets\\scripts\\section 6\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F242C042-C245-C360-3A42-9B39FF09DC78}|Section2Scripts.csproj|solutionrelative:assets\\scripts\\section 6\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,32 +42,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WeaponADS.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\Section 6\\Weapon\\WeaponADS.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Section 6\\Weapon\\WeaponADS.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\Section 6\\Weapon\\WeaponADS.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Section 6\\Weapon\\WeaponADS.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBUAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Ammo.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\Section 6\\Weapon\\Ammo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Section 6\\Weapon\\Ammo.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\Section 6\\Weapon\\Ammo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Section 6\\Weapon\\Ammo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T11:26:17.754Z",
+              "WhenOpened": "2025-05-22T14:12:50.941Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\Section 6\\Weapon\\Weapon.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Section 6\\Weapon\\Weapon.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\Section 6\\Weapon\\Weapon.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Section 6\\Weapon\\Weapon.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T23:32:40.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PlayerHealth.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\Section 6\\Player\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Section 6\\Player\\PlayerHealth.cs",
               "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\Section 6\\Player\\PlayerHealth.cs",
               "RelativeToolTip": "Assets\\Scripts\\Section 6\\Player\\PlayerHealth.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAgwDYAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T14:21:00.586Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "EnemyAttack.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\Section 6\\Enemy\\EnemyAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Section 6\\Enemy\\EnemyAttack.cs",
@@ -75,25 +88,23 @@
               "RelativeToolTip": "Assets\\Scripts\\Section 6\\Enemy\\EnemyAttack.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T11:31:25.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T11:31:25.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "EnemyAi.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\Section 6\\Enemy\\EnemyAi.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Section 6\\Enemy\\EnemyAi.cs",
               "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\Section 6\\Enemy\\EnemyAi.cs",
               "RelativeToolTip": "Assets\\Scripts\\Section 6\\Enemy\\EnemyAi.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAowAkAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T16:36:09.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T16:36:09.314Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "EnemyHp.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\Section 6\\Enemy\\EnemyHp.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Section 6\\Enemy\\EnemyHp.cs",
@@ -102,18 +113,6 @@
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwCYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T00:09:56.781Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Weapon.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\Section 6\\Weapon\\Weapon.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Section 6\\Weapon\\Weapon.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Complete-C-Unity-Game-Developer-3D\\Assets\\Scripts\\Section 6\\Weapon\\Weapon.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Section 6\\Weapon\\Weapon.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAcwEsAAABnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T23:32:40.184Z"
             }
           ]
         }
