@@ -51,6 +51,7 @@ public class PlayerHealth : MonoBehaviour
     {
         GetComponent<PlayerInput>().enabled = false;//disable player input
         Time.timeScale = 0;//freeze time
+        FindObjectOfType<WeaponSelector>().enabled = false;
         Cursor.lockState = CursorLockMode.None;// unlock the cursor
         Cursor.visible = true;//show the cursor
     }

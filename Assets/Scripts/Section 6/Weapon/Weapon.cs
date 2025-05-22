@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+[RequireComponent(typeof(Ammo))]
 public class Weapon : MonoBehaviour
 {
     [SerializeField] Camera FirstPersonCamera;
@@ -14,7 +14,11 @@ public class Weapon : MonoBehaviour
     [SerializeField] ParticleSystem muzzleFlash;
     [SerializeField] ParticleSystem enemyHitEffect;
     [SerializeField] ParticleSystem worldHitEffect;
-    [SerializeField] Ammo ammoSlot;
+    [SerializeField] bool isAutomatic=true;
+    Ammo ammoSlot;
+    Ammo AmmoSlot //property used to fetch ammoSlot to recharge it when ammo is picked up by the player
+    { get { return ammoSlot; }
+    }
     float lastShot;
     // Start is called before the first frame update
     void Start()
@@ -26,18 +30,31 @@ public class Weapon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        ProcessInput();
+    }
 
-        if (Input.GetKey(KeyCode.Mouse0))
+    private void ProcessInput()
+    {
+        if (isAutomatic)
         {
-            if(ammoSlot.GetAmmoCount()>0)
-                Shoot();
+            if (Input.GetKey(KeyCode.Mouse0))//should fire as long as the button is held
+            {
+                if (ammoSlot.GetAmmoCount() > 0)
+                    Shoot();
+            }
+        }
+        else
+        {
+            if (Input.GetMouseButtonDown(0))//should only fire once
+                if (ammoSlot.GetAmmoCount() > 0)
+                    Shoot();
         }
     }
 
     private void Shoot()
     {
         float ShootDelta = (Time.time - lastShot);
-        if (ShootDelta < 1 / fireRate)
+        if (ShootDelta < 1 / fireRate)// not using courotine here because they cost more than a simple return
             return;
         MuzzleFlash();
         Fire();

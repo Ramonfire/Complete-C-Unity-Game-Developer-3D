@@ -9,14 +9,10 @@ public class WeaponADS : MonoBehaviour
     [SerializeField] float adsFOV = 20f;
     [SerializeField] float defaultFOV = 40f;
 
-    FirstPersonController controller;
+    [SerializeField]FirstPersonController controller;
     [SerializeField] float zoomoutSens = 2f;
     [SerializeField] float zoominSens = 0.5f;
     // Start is called before the first frame update
-    void Start()
-    {
-        controller = GetComponent<FirstPersonController>();
-    }
 
     void Update()
     {
