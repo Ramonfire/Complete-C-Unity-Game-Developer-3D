@@ -64,8 +64,10 @@
     <Compile Include="Assets\Scripts\Section 6\Enemy\EnemyHp.cs" />
     <Compile Include="Assets\Scripts\Section 3\QuitApplication.cs" />
     <Compile Include="Assets\Scripts\Section 2\Spinner.cs" />
+    <Compile Include="Assets\Scripts\Section 6\Player\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Section 3\Oscillator.cs" />
     <Compile Include="Assets\Scripts\Section 4\PlayerControls.cs" />
+    <Compile Include="Assets\Scripts\Section 6\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\Section 2\Scorer.cs" />
     <Compile Include="Assets\Scripts\Section 5\Tower\TargetTracker.cs" />
     <Compile Include="Assets\Scripts\Section 5\Enemy\Mouvement\Pathfinding\GridManager.cs" />
@@ -90,8 +92,7 @@
     <Compile Include="Assets\Scripts\Section 4\SpaceShipCollisionHandler.cs" />
     <Compile Include="Assets\Scripts\Section 3\RocketMovement.cs" />
     <Compile Include="Assets\Scripts\Section 3\RocketCollision.cs" />
-    <Compile Include="Assets\Scripts\Section 6\Player\PlayerHealth.cs" />
-    <Compile Include="Assets\Scripts\Section 6\SceneLoader.cs" />
+    <Compile Include="Assets\Scripts\Section 6\Weapon\WeaponADS.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\SectionsScripts.asmdef" />
@@ -768,6 +769,9 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
