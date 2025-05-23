@@ -154,6 +154,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 20
+  ammo:
+  - {fileID: 4256736897968391469, guid: c078600ac5ceb564abcaa382b50e42d9, type: 3}
+  - {fileID: 1678797822442639996, guid: 3c3ee0d580f0071438720547152ebae1, type: 3}
+  - {fileID: 1967296516072344359, guid: 7e62ab9c4d6222b4cacd1412f4b1751c, type: 3}
+  - {fileID: 4466686726618500725, guid: d1dbef5e383367744949b757ab00c73a, type: 3}
 --- !u!95 &4943178883983144559
 Animator:
   serializedVersion: 4

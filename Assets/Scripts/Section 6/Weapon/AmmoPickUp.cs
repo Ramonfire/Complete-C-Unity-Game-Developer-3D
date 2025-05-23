@@ -24,12 +24,13 @@ public class AmmoPickUp : MonoBehaviour
     }
     private void PickUp()
     {
-       Weapon[] weapons =  FindObjectsOfType<Weapon>();
+       Transform weapons =  FindObjectOfType<WeaponSelector>().transform;
 
-        foreach (Weapon weapon in weapons)
+        foreach (Transform weapon in weapons)
         {
-            if (weapon.AmmoSlot.GetAmmoType() ==type)
-                weapon.AmmoSlot.AddAmmo(ammoAmount);
+            Weapon wp = weapon.GetComponent<Weapon>();
+            if (wp.AmmoSlot.GetAmmoType() ==type)
+                wp.AmmoSlot.AddAmmo(ammoAmount);
         }
 
         Destroy(gameObject);

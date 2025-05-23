@@ -87,6 +87,7 @@
     <Compile Include="Assets\Scripts\Section 6\Player\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
     <Compile Include="Assets\Scripts\Section 6\Player\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
     <Compile Include="Assets\Scripts\Section 6\Weapon\Weapon.cs" />
+    <Compile Include="Assets\Scripts\Section 6\Weapon\AmmoPickUp.cs" />
     <Compile Include="Assets\Scripts\Section 5\Enemy\Mouvement\EnemyMover.cs" />
     <Compile Include="Assets\Scripts\Section 5\Tiles\CoordinateLabererPathFinding.cs" />
     <Compile Include="Assets\Scripts\Section 5\Bank and score\DisplayScore.cs" />
@@ -105,7 +106,6 @@
     <Compile Include="Assets\Scripts\Section 4\SpaceShipCollisionHandler.cs" />
     <Compile Include="Assets\Scripts\Section 3\RocketMovement.cs" />
     <Compile Include="Assets\Scripts\Section 3\RocketCollision.cs" />
-    <Compile Include="Assets\Scripts\Section 6\Weapon\AmmoPickUp.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\Section 6\Player\StarterAssets\license.txt" />
