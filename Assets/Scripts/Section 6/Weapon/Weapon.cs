@@ -16,7 +16,7 @@ public class Weapon : MonoBehaviour
     [SerializeField] ParticleSystem worldHitEffect;
     [SerializeField] bool isAutomatic=true;
     Ammo ammoSlot;
-    Ammo AmmoSlot //property used to fetch ammoSlot to recharge it when ammo is picked up by the player
+    public Ammo AmmoSlot //property used to fetch ammoSlot to recharge it when ammo is picked up by the player
     { get { return ammoSlot; }
     }
     float lastShot;

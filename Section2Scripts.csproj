@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\Section 6\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\Section 2\Scorer.cs" />
     <Compile Include="Assets\Scripts\Section 5\Tower\TargetTracker.cs" />
+    <Compile Include="Assets\Scripts\Section 6\Weapon\WeaponSelector.cs" />
     <Compile Include="Assets\Scripts\Section 5\Enemy\Mouvement\Pathfinding\GridManager.cs" />
     <Compile Include="Assets\Scripts\Section 4\MusicPlayer.cs" />
     <Compile Include="Assets\Scripts\Section 5\Enemy\Mouvement\Pathfinding\Node.cs" />
@@ -104,7 +105,7 @@
     <Compile Include="Assets\Scripts\Section 4\SpaceShipCollisionHandler.cs" />
     <Compile Include="Assets\Scripts\Section 3\RocketMovement.cs" />
     <Compile Include="Assets\Scripts\Section 3\RocketCollision.cs" />
-    <Compile Include="Assets\Scripts\Section 6\Weapon\WeaponSelector.cs" />
+    <Compile Include="Assets\Scripts\Section 6\Weapon\AmmoPickUp.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\Section 6\Player\StarterAssets\license.txt" />
