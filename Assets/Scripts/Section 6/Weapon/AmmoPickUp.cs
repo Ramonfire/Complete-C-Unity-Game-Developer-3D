@@ -29,8 +29,12 @@ public class AmmoPickUp : MonoBehaviour
         foreach (Transform weapon in weapons)
         {
             Weapon wp = weapon.GetComponent<Weapon>();
-            if (wp.AmmoSlot.GetAmmoType() ==type)
+            if (wp.AmmoSlot.GetAmmoType() == type) 
+            {
                 wp.AmmoSlot.AddAmmo(ammoAmount);
+                break;
+            }     
+           
         }
 
         Destroy(gameObject);
