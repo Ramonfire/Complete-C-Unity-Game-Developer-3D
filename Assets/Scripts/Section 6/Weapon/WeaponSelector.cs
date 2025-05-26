@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class WeaponSelector : MonoBehaviour
@@ -8,6 +9,8 @@ public class WeaponSelector : MonoBehaviour
     [SerializeField] int currentWeapon = 0;
     int weaponCount;
     int previousWeapon;
+    [SerializeField] TMP_Text AmmoCount;
+    Weapon activeWeapon;
     // Update is called once per frame
     void Start()
     {
@@ -20,7 +23,13 @@ public class WeaponSelector : MonoBehaviour
          ProcessInput();
         CheckIfValidWeaponSelection();
         ActivateWeapon();
+        GetAmmoCount();
+    }
 
+    private void GetAmmoCount()
+    {
+        if(activeWeapon!=null && activeWeapon.AmmoSlot!= null)
+            AmmoCount.SetText(activeWeapon.AmmoSlot.GetAmmoCount().ToString());
     }
 
     private void CheckIfValidWeaponSelection()
@@ -67,7 +76,10 @@ public class WeaponSelector : MonoBehaviour
             if(previousWeapon != currentWeapon)
             { 
                 if(weaponIndex == currentWeapon)
-                    weapon.gameObject.SetActive(true);      
+                {
+                    weapon.gameObject.SetActive(true);
+                    activeWeapon = weapon.GetComponent<Weapon>();
+                }             
                 else
                     weapon.gameObject.SetActive(false);
             }

@@ -106,6 +106,8 @@
     <Compile Include="Assets\Scripts\Section 4\SpaceShipCollisionHandler.cs" />
     <Compile Include="Assets\Scripts\Section 3\RocketMovement.cs" />
     <Compile Include="Assets\Scripts\Section 3\RocketCollision.cs" />
+    <Compile Include="Assets\Scripts\Section 6\ShowEndGame.cs" />
+    <Compile Include="Assets\Scripts\Section 6\Weapon\FlashLightControls.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\Section 6\Player\StarterAssets\license.txt" />
