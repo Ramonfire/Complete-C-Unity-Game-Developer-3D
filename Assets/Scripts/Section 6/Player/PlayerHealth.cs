@@ -1,4 +1,5 @@
 
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,6 +9,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] int currentHealth;
     bool levelCompleted = false;
     [SerializeField] Canvas gameOverCanvas;
+    [SerializeField] Canvas DamageReceivedCanvas;
     public bool LevelCompleted
     {
         get { return levelCompleted; }
@@ -19,9 +21,11 @@ public class PlayerHealth : MonoBehaviour
     {
         currentHealth = maxHealth;
         gameOverCanvas.enabled = false;
+        DamageReceivedCanvas.enabled = false;
         Time.timeScale = 1;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+           
     }
 
     // Update is called once per frame
@@ -60,5 +64,16 @@ public class PlayerHealth : MonoBehaviour
     public void DamagePlayer(int inDamage)
     {
         currentHealth -= inDamage;
+
+        if (DamageReceivedCanvas == null)
+            return;
+
+        StartCoroutine(DisplayDamage());
+    }
+    IEnumerator DisplayDamage() 
+    {
+        DamageReceivedCanvas.enabled = true;
+        yield return new WaitForSeconds(0.3f);
+        DamageReceivedCanvas.enabled = false;
     }
 }
